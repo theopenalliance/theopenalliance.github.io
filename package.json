@@ -1,0 +1,42 @@
+{
+  "name": "the-open-alliance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "the-open-alliance",
+  "author": "Justin Tervay",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^4.18.1",
+    "gatsby-plugin-image": "^2.18.1",
+    "gatsby-plugin-manifest": "^4.18.1",
+    "gatsby-plugin-mdx": "^3.18.1",
+    "gatsby-plugin-react-helmet": "^5.18.0",
+    "gatsby-plugin-sass": "^5.18.1",
+    "gatsby-plugin-sharp": "^4.18.1",
+    "gatsby-plugin-sitemap": "^5.18.1",
+    "gatsby-source-filesystem": "^4.18.1",
+    "gatsby-transformer-sharp": "^4.18.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.7.4"
+  }
+}
