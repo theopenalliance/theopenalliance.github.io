@@ -1,19 +1,14 @@
 import React from "react";
 import logo from "../images/logo/nobg.svg";
+import Navbar from "react-bootstrap/Navbar";
+import { Container, Nav, NavbarBrand, NavDropdown } from "react-bootstrap";
 
-export default function Navbar(): JSX.Element {
+export default function Navbar_(): JSX.Element {
   const logoSize = 48;
   return (
-    <nav
-      className="navbar navbar-expand-lg bg-dark"
-      style={
-        {
-          // backgroundColor: "#202020",
-        }
-      }
-    >
-      <div className="container-fluid">
-        <a className="navbar-brand" href="/">
+    <Navbar bg="dark" expand="lg">
+      <Container fluid>
+        <NavbarBrand href="/">
           <img
             src={logo}
             alt=""
@@ -24,35 +19,22 @@ export default function Navbar(): JSX.Element {
           <span className="h3 align-middle oa text-white">
             The Open Alliance
           </span>
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div
-          className="collapse navbar-collapse align-middle"
-          id="navbarNavAltMarkup"
-        >
-          <div className="navbar-nav">
-            <a className="nav-link link-light" href="#">
+        </NavbarBrand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home" className="link-light">
               Join
-            </a>
-            <a className="nav-link link-light" href="#">
-              2021-22 Teams
-            </a>
-            <a className="nav-link link-light" href="#">
-              2022-23 Teams
-            </a>
-          </div>
-        </div>
-      </div>
-    </nav>
+            </Nav.Link>
+            <Nav.Link href="#link" className="link-light">
+              2022 Teams
+            </Nav.Link>
+            <Nav.Link href="#link" className="link-light">
+              2023 Teams
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
