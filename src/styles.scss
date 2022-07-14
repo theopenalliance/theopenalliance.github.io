@@ -18,6 +18,11 @@
     format("opentype");
 }
 
-* {
-  font-family: "Glacial Indifference", sans-serif;
+$font-family-base: "Open Sans", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.oa {
+  font-family: "Glacial Indifference";
+  font-weight: bold;
 }
