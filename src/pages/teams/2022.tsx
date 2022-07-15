@@ -4,6 +4,7 @@ import logo from "../../images/logo/darkbg.png";
 
 import Table from "react-bootstrap/Table";
 import { Button, ButtonGroup } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 
 interface Media {
   url: string;
@@ -23,7 +24,12 @@ const Photos = (url: string): Media => ({ url, name: "Photos" });
 const YouTube = (url: string): Media => ({ url, name: "YouTube" });
 const Code = (url: string): Media => ({ url, name: "Code" });
 
-const spotlightTeams: TeamInfo[] = [
+// const spotlightTeams: TeamInfo[] = [
+
+// ].sort((a, b) => a.number - b.number);
+
+const allTeams: TeamInfo[] = [
+  // ...spotlightTeams,
   {
     number: 95,
     name: "Grasshoppers",
@@ -133,10 +139,6 @@ const spotlightTeams: TeamInfo[] = [
       Code("https://github.com/CAVALIER-ROBOTICS/ColorSensorAndArray"),
     ],
   },
-].sort((a, b) => a.number - b.number);
-
-const allTeams: TeamInfo[] = [
-  ...spotlightTeams,
   {
     number: 7407,
     name: "Wired Boars",
@@ -205,6 +207,7 @@ const allTeams: TeamInfo[] = [
       CD(
         "https://www.chiefdelphi.com/t/frc-5987-open-alliance-build-thread/398861"
       ),
+      Code("https://github.com/Galaxia5987/robot-2022"),
     ],
   },
   {
@@ -387,9 +390,18 @@ const allTeams: TeamInfo[] = [
     number: 319,
     name: "Big Bad Bob",
     location: "Alton, NH",
-    media: [CD("https://www.chiefdelphi.com/t/frc-319-public-cad-2022/401715")],
+    media: [
+      CD("https://www.chiefdelphi.com/t/frc-319-public-cad-2022/401715"),
+      CAD(
+        "https://cad.onshape.com/documents/d73a18f7e47e62256b2a00a7/w/b0fa2b66d1a60d7c767ec941/e/5b3453e07f44725c2c1a9d0e"
+      ),
+    ],
   },
 ].sort((a, b) => a.number - b.number);
+
+const spotlightTeams: TeamInfo[] = allTeams.filter((t) =>
+  [95, 1339, 2713, 3636, 3847, 4481, 6328, 7492, 5987].includes(t.number)
+);
 
 function TeamInfoTable(props: { teamInfo: TeamInfo[] }): JSX.Element {
   return (
@@ -433,28 +445,80 @@ function TeamInfoTable(props: { teamInfo: TeamInfo[] }): JSX.Element {
   );
 }
 
+function TinyHighlight(props: { team: TeamInfo }): JSX.Element {
+  return (
+    <div className="col d-flex align-items-start">
+      <div className="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"></div>
+      <div className="text-start">
+        <a
+          className="h3 text-decoration-none"
+          href={`https://www.thebluealliance.com/team/${props.team.number}/2022`}
+        >
+          {props.team.number} - {props.team.name}
+        </a>
+        <p>{props.team.location}</p>
+        <ButtonGroup>
+          {props.team.media?.map((m) => (
+            <Button
+              href={m.url}
+              variant="outline-primary"
+              size="sm"
+              className="text-nowrap"
+            >
+              {m.name}
+            </Button>
+          ))}
+        </ButtonGroup>
+      </div>
+    </div>
+  );
+}
+
 export default function Teams2022(): JSX.Element {
+  const oa_logo_size = 56;
   return (
     <Layout>
-      <h1 style={{ color: "red" }} className="text-center">
+      <Helmet>
+        <title>2022 Teams | The Open Alliance</title>
+      </Helmet>
+      <div className="alert alert-danger" role="alert">
         This page is not complete and is a work in progress. Highlighted teams
         are not final. Simply for UI testing purposes.
-      </h1>
-      <div className="px-4 py-5 my-5 text-center">
-        <img
-          className="d-block mx-auto mb-4"
-          src={logo}
-          alt=""
-          width="72"
-          height="72"
-        />
-        <h1 className="display-5 fw-bold">2022 Highlighted Teams</h1>
-        <div className="col-lg-8 mx-auto">
-          <p className="lead mb-4"></p>
-          <TeamInfoTable teamInfo={spotlightTeams} />
+      </div>
+      <div className="px-4 pt-4 pb-5 text-center">
+        <div className="clearfix">
+          <img
+            className="pull-left"
+            src={logo}
+            alt=""
+            width={oa_logo_size}
+            height={oa_logo_size}
+          />
+          <span className="h1 align-middle ps-2">2022 Highlighted Teams</span>
+        </div>
+        <div className="">
+          {/* <p className="lead mb-4"></p> */}
+          {/* <TeamInfoTable teamInfo={spotlightTeams} />/ */}
+
+          <div className="container px-4 pb-3" id="hanging-icons">
+            <div className="row g-5 py-4 row-cols-xxl-3 row-cols-lg-2 row-cols-sm-1">
+              {spotlightTeams.map((t) => (
+                <TinyHighlight team={t} />
+              ))}
+            </div>
+          </div>
         </div>
       </div>
-      <h1>All 2022 Open Alliance Teams ({allTeams.length})</h1>
+
+      <div className="d-inline-flex align-items-center">
+        <h1>2022 Open Alliance Teams </h1>
+        <h5>
+          <span className="badge text-bg-secondary rounded-pill ms-3">
+            {allTeams.length}
+          </span>
+        </h5>
+      </div>
+
       <TeamInfoTable teamInfo={allTeams} />
     </Layout>
   );

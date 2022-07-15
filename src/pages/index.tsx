@@ -1,11 +1,15 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import logo from "../images/logo/darkbg.png";
 
 export default function Index(): JSX.Element {
   return (
     <Layout>
+      <Helmet>
+        <title>The Open Alliance</title>
+      </Helmet>
       <Container className="container col-xxl-8 px-4 py-5">
         <Row className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
