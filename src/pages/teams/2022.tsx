@@ -17,16 +17,23 @@ interface TeamInfo {
   media?: Media[];
 }
 
+const CD = (url: string): Media => ({ url, name: "Build Thread" });
+const CAD = (url: string): Media => ({ url, name: "CAD" });
+const Photos = (url: string): Media => ({ url, name: "Photos" });
+const YouTube = (url: string): Media => ({ url, name: "YouTube" });
+const Code = (url: string): Media => ({ url, name: "Code" });
+
 const spotlightTeams: TeamInfo[] = [
   {
     number: 95,
     name: "Grasshoppers",
     location: "White River Junction, VT",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc95-2022-build-thread/398263",
-      },
+      CD("https://www.chiefdelphi.com/t/frc95-2022-build-thread/398263"),
+      CAD("https://cad.onshape.com/documents/ff29bfac394b96c4cbc0d4e7"),
+      Code("https://github.com/first95/FRC2022"),
+      Photos("https://imgur.com/a/NjDfHCq"),
+      YouTube("https://www.youtube.com/channel/UCRXcfSYmEfn7XpdtmPtiFZA"),
     ],
   },
   {
@@ -34,10 +41,13 @@ const spotlightTeams: TeamInfo[] = [
     name: "AngelBotics",
     location: "Denver, CO",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/1339-open-alliance-build-thread/398264",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/1339-open-alliance-build-thread/398264"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/88b99c758855cbe7121ae77c/w/35167a1e331b7ee18e42ad0d/e/d3b9e693ad11c34f42f4fa88"
+      ),
+      Code("https://github.com/Angelbots1339/2022_Competition_Season"),
     ],
   },
   {
@@ -45,10 +55,13 @@ const spotlightTeams: TeamInfo[] = [
     name: "iRaiders",
     location: "Melrose, MA",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc-2713-iraiders-2022-build-thread/398350",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/frc-2713-iraiders-2022-build-thread/398350"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/03f8a0da7179b63f708c664f/w/82aa1887423a1d97da774162/e/7f81ae34c2b2b5582f4c7f7b"
+      ),
+      Code("https://github.com/iraiders/Robot2022"),
     ],
   },
   {
@@ -56,10 +69,13 @@ const spotlightTeams: TeamInfo[] = [
     name: "Generals",
     location: "Portland, OR",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/3636-open-alliance-2022-build-thread/398429",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/3636-open-alliance-2022-build-thread/398429"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/cd0b0e474e581bdfec4f150d/w/373f57dad67277118d0ce57f/e/c2171cda5e1e5e8ab11e90ac"
+      ),
+      Code("https://github.com/FRC3636/frc-2022"),
     ],
   },
   {
@@ -67,10 +83,12 @@ const spotlightTeams: TeamInfo[] = [
     name: "Spectrum -△◅",
     location: "Houston, TX",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/spectrum-3847-build-blog-2022/399190",
-      },
+      CD("https://www.chiefdelphi.com/t/spectrum-3847-build-blog-2022/399190"),
+      CAD(
+        "https://cad.onshape.com/documents/995ee9b75573cf463f84dbbc/w/80aecca8674f728b1e04236c/e/dac0a7693d84c119c3ce8bab"
+      ),
+      Code("https://github.com/Spectrum3847/Infrared-2022"),
+      Photos("https://photos.spectrum3847.org/2022-FRC-1/2022-Build-Season-1/"),
     ],
   },
   {
@@ -78,10 +96,13 @@ const spotlightTeams: TeamInfo[] = [
     name: "Team Rembrandts",
     location: "Eindhoven, Netherlands",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc-4481-team-rembrandts-2022-build-thread/398855",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/frc-4481-team-rembrandts-2022-build-thread/398855"
+      ),
+      CAD(
+        "https://grabcad.com/library/frc-4481-team-rembrandts-resurrection-v3-1"
+      ),
+      YouTube("https://www.youtube.com/c/Teamrembrandts"),
     ],
   },
   {
@@ -89,10 +110,14 @@ const spotlightTeams: TeamInfo[] = [
     name: "Mechanical Advantage",
     location: "Littleton, MA",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2022-build-thread/398645",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2022-build-thread/398645"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/b83cb8e60cea7c17cbee6692/w/13284a7a33c1b2621631c2ee/e/ee2cff08193b9fc024e2c99f?renderMode=0&uiState=61d32f5fe24e8c7bed4016c8"
+      ),
+      Code("https://github.com/Mechanical-Advantage/RobotCode2022"),
+      YouTube("https://www.youtube.com/c/LittletonRobotics"),
     ],
   },
   {
@@ -100,10 +125,12 @@ const spotlightTeams: TeamInfo[] = [
     name: "CavBots",
     location: "The Woodlands, TX",
     media: [
+      CD("https://www.chiefdelphi.com/t/7492-cavbots-2022-build-blog/398060"),
       {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/7492-cavbots-2022-build-blog/398060",
+        name: "Google Drive",
+        url: "https://drive.google.com/drive/folders/1F3rJx6nQj4Q9a8wefGKip94JwrXC1l82",
       },
+      Code("https://github.com/CAVALIER-ROBOTICS/ColorSensorAndArray"),
     ],
   },
 ].sort((a, b) => a.number - b.number);
@@ -115,10 +142,9 @@ const allTeams: TeamInfo[] = [
     name: "Wired Boars",
     location: "Wallingford, CT",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc-7407-2022-open-alliance-build-thread/398674",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/frc-7407-2022-open-alliance-build-thread/398674"
+      ),
       {
         name: "Offseason Thread",
         url: "https://www.chiefdelphi.com/t/7407-offseason-upgrades-open-alliance/413213",
@@ -130,10 +156,9 @@ const allTeams: TeamInfo[] = [
     name: "The Falcons",
     location: "Poolesville, MD",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc-4099-the-falcons-2022-build-blog/398376",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/frc-4099-the-falcons-2022-build-blog/398376"
+      ),
     ],
   },
   {
@@ -141,10 +166,7 @@ const allTeams: TeamInfo[] = [
     name: "GalacTech",
     location: "Columbus, IN",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/galactech-4926-build-blog-2022/398705",
-      },
+      CD("https://www.chiefdelphi.com/t/galactech-4926-build-blog-2022/398705"),
     ],
   },
   {
@@ -152,10 +174,7 @@ const allTeams: TeamInfo[] = [
     name: "Lutheran Roboteers",
     location: "Saint Peters, MO",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc-4329-2022-build-thread/401500",
-      },
+      CD("https://www.chiefdelphi.com/t/frc-4329-2022-build-thread/401500"),
     ],
   },
   {
@@ -163,10 +182,9 @@ const allTeams: TeamInfo[] = [
     name: "Sushi Squad",
     location: "Redmond, WA",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc-7461-sushi-squad-2022-build-thread/398649",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/frc-7461-sushi-squad-2022-build-thread/398649"
+      ),
     ],
   },
   {
@@ -174,10 +192,9 @@ const allTeams: TeamInfo[] = [
     name: "Official Robotics Constructors of Ashland",
     location: "Ashland, VA",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/orca3136-open-alliance-2022-build-log/399120",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/orca3136-open-alliance-2022-build-log/399120"
+      ),
     ],
   },
   {
@@ -185,10 +202,9 @@ const allTeams: TeamInfo[] = [
     name: "Galaxia in memory of David Zohar",
     location: "Haifa, Israel",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc-5987-open-alliance-build-thread/398861",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/frc-5987-open-alliance-build-thread/398861"
+      ),
     ],
   },
   {
@@ -196,10 +212,9 @@ const allTeams: TeamInfo[] = [
     name: "YETI Robotics",
     location: "Charlotte, NC",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc-3506-yeti-robotics-2022-build-thread/398740",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/frc-3506-yeti-robotics-2022-build-thread/398740"
+      ),
     ],
   },
   {
@@ -207,10 +222,9 @@ const allTeams: TeamInfo[] = [
     name: "Quasics",
     location: "Monroeville, PA",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/frc-2656-quasics-2022-build-thread/398694",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/frc-2656-quasics-2022-build-thread/398694"
+      ),
     ],
   },
   {
@@ -218,11 +232,162 @@ const allTeams: TeamInfo[] = [
     name: "LigerBots",
     location: "Newton, MA",
     media: [
-      {
-        name: "Build Thread",
-        url: "https://www.chiefdelphi.com/t/ligerbots-frc-2877-openalliance-build-thread-2022/398824",
-      },
+      CD(
+        "https://www.chiefdelphi.com/t/ligerbots-frc-2877-openalliance-build-thread-2022/398824"
+      ),
     ],
+  },
+  {
+    number: 5431,
+    name: "Titan Robotics",
+    location: "Plano, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-5431-titan-robotics-2022-build-thread/400408"
+      ),
+    ],
+  },
+  {
+    number: 2239,
+    name: "Technocrats",
+    location: "Hopkins, MN",
+    media: [
+      CD("https://www.chiefdelphi.com/t/2239-open-alliance-2022-thread/398646"),
+    ],
+  },
+  {
+    number: 8728,
+    name: "Argonauts",
+    location: "Troy, MI",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-8728-open-alliance-build-thread/398431"
+      ),
+    ],
+  },
+  {
+    number: 3512,
+    name: "Spartatroniks",
+    location: "Orcutt, CA",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/spartatroniks-3512-build-blog-2022/400462"
+      ),
+    ],
+  },
+  {
+    number: 2357,
+    name: "System Meltdown",
+    location: "Peculiar, MO",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-2357-system-meltdown-2022-build-thread/399174"
+      ),
+    ],
+  },
+  {
+    number: 6838,
+    name: "X-SHARC",
+    location: "Istanbul, Turkey",
+    media: [
+      CD("https://www.chiefdelphi.com/t/x-sharc-6838-build-blog-2022/398883"),
+    ],
+  },
+  {
+    number: 5417,
+    name: "Eagle Robotics",
+    location: "Allen, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/eagle-robotics-5417-2022-build-thread/401134"
+      ),
+    ],
+  },
+  {
+    number: 71,
+    name: "Team Hammond",
+    location: "Hammond, IN",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-71-team-hammond-2022-build-thread/398214"
+      ),
+    ],
+  },
+  {
+    number: 5104,
+    name: "BreakerBots",
+    location: "Pacific Grove, CA",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc5104-breakerbots-2022-build-thread/398267"
+      ),
+    ],
+  },
+  {
+    number: 6762,
+    name: "Oscats",
+    location: "Hillsborough, NH",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-6762-open-alliance-2022-build-thread/398916"
+      ),
+    ],
+  },
+  {
+    number: 1466,
+    name: "Webb Robotics",
+    location: "Knoxville, TN",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-1466-webb-robotics-2022-build-thread/398774"
+      ),
+    ],
+  },
+  {
+    number: 2062,
+    name: "CORE 2062",
+    location: "Waukesha, WI",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-2062-open-alliance-build-thread/400986"
+      ),
+    ],
+  },
+  {
+    number: 3161,
+    name: "Tronic Titans",
+    location: "Oakville, ON",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/team-3161-tronic-titans-build-blog-2022/400485"
+      ),
+    ],
+  },
+  {
+    number: 8574,
+    name: "Audeamus",
+    location: "North York, ON",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-8574-audeamus-open-alliance-build-thread/399041"
+      ),
+    ],
+  },
+  {
+    number: 1745,
+    name: "The P-51 Mustangs",
+    location: "Richardson, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-1745-open-design-for-frc22-again-again-build-thread/398778"
+      ),
+    ],
+  },
+  {
+    number: 319,
+    name: "Big Bad Bob",
+    location: "Alton, NH",
+    media: [CD("https://www.chiefdelphi.com/t/frc-319-public-cad-2022/401715")],
   },
 ].sort((a, b) => a.number - b.number);
 
@@ -250,7 +415,12 @@ function TeamInfoTable(props: { teamInfo: TeamInfo[] }): JSX.Element {
             <td>
               <ButtonGroup>
                 {t.media?.map((m) => (
-                  <Button href={m.url} variant="outline-primary" size="sm">
+                  <Button
+                    href={m.url}
+                    variant="outline-primary"
+                    size="sm"
+                    className="text-nowrap"
+                  >
                     {m.name}
                   </Button>
                 ))}
@@ -279,12 +449,12 @@ export default function Teams2022(): JSX.Element {
           height="72"
         />
         <h1 className="display-5 fw-bold">2022 Highlighted Teams</h1>
-        <div className="col-lg-7 mx-auto">
+        <div className="col-lg-8 mx-auto">
           <p className="lead mb-4"></p>
           <TeamInfoTable teamInfo={spotlightTeams} />
         </div>
       </div>
-      <h1>All 2022 Open Alliance Teams</h1>
+      <h1>All 2022 Open Alliance Teams ({allTeams.length})</h1>
       <TeamInfoTable teamInfo={allTeams} />
     </Layout>
   );
