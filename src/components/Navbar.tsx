@@ -26,7 +26,7 @@ export default function Navbar_(): JSX.Element {
             <Nav.Link href="#home" className="link-light">
               Join
             </Nav.Link>
-            <Nav.Link href="#link" className="link-light">
+            <Nav.Link href="/teams/2022" className="link-light">
               2022 Teams
             </Nav.Link>
             <Nav.Link href="#link" className="link-light">
