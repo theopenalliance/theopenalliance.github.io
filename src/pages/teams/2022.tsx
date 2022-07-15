@@ -239,17 +239,14 @@ function TeamInfoTable(props: { teamInfo: TeamInfo[] }): JSX.Element {
       </thead>
       <tbody>
         {props.teamInfo.map((t) => (
-          <tr>
+          <tr className="align-middle">
             <td>
-              <a
-                href={`https://www.thebluealliance.com/team/${t.number}/2022`}
-                className="align-middle"
-              >
+              <a href={`https://www.thebluealliance.com/team/${t.number}/2022`}>
                 {t.number}
               </a>
             </td>
-            <td className="align-middle">{t.name}</td>
-            <td className="align-middle">{t.location}</td>
+            <td>{t.name}</td>
+            <td>{t.location}</td>
             <td>
               <ButtonGroup>
                 {t.media?.map((m) => (
