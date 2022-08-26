@@ -54,6 +54,10 @@ const allTeams: TeamInfo[] = [
         "https://cad.onshape.com/documents/88b99c758855cbe7121ae77c/w/35167a1e331b7ee18e42ad0d/e/d3b9e693ad11c34f42f4fa88"
       ),
       Code("https://github.com/Angelbots1339/2022_Competition_Season"),
+      {
+        name: "Pit Thread",
+        url: "https://www.chiefdelphi.com/t/1339-open-alliance-super-pit",
+      },
     ],
   },
   {
@@ -169,6 +173,7 @@ const allTeams: TeamInfo[] = [
     location: "Columbus, IN",
     media: [
       CD("https://www.chiefdelphi.com/t/galactech-4926-build-blog-2022/398705"),
+      CAD("https://a360.co/3JMEXfi"),
     ],
   },
   {
@@ -187,6 +192,11 @@ const allTeams: TeamInfo[] = [
       CD(
         "https://www.chiefdelphi.com/t/frc-7461-sushi-squad-2022-build-thread/398649"
       ),
+      Code("https://github.com/SushiSquad7461/2022takowoyaki"),
+      {
+        name: "Offseason CAD",
+        url: "https://cad.onshape.com/documents/5d34372cc647f58f08a28399",
+      },
     ],
   },
   {
@@ -218,6 +228,7 @@ const allTeams: TeamInfo[] = [
       CD(
         "https://www.chiefdelphi.com/t/frc-3506-yeti-robotics-2022-build-thread/398740"
       ),
+      Code("https://github.com/Yeti-Robotics/2022-stumpy-java"),
     ],
   },
   {
@@ -276,6 +287,7 @@ const allTeams: TeamInfo[] = [
       CD(
         "https://www.chiefdelphi.com/t/spartatroniks-3512-build-blog-2022/400462"
       ),
+      Code("https://github.com/frc3512/Robot-2022"),
     ],
   },
   {
@@ -397,10 +409,26 @@ const allTeams: TeamInfo[] = [
       ),
     ],
   },
+  {
+    number: 8177,
+    name: "Vector",
+    location: "Tomball, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-vector-8177-build-thread-2022/399372"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/ead19c1183936a78bf128d66/w/97b44a332fe600567ee677b5"
+      ),
+      Code("https://github.com/FRC-Team-Vector-8177/2022-Vector-Robot"),
+    ],
+  },
 ].sort((a, b) => a.number - b.number);
 
 const spotlightTeams: TeamInfo[] = allTeams.filter((t) =>
-  [95, 1339, 2713, 3636, 3847, 4481, 6328, 7492, 5987].includes(t.number)
+  [
+    95, 1339, 2713, 3636, 3847, 4481, 6328, 7407, 7492, 7461, 3506, 4926,
+  ].includes(t.number)
 );
 
 function TeamInfoTable(props: { teamInfo: TeamInfo[] }): JSX.Element {
@@ -481,10 +509,6 @@ export default function Teams2022(): JSX.Element {
       <Helmet>
         <title>2022 Teams | The Open Alliance</title>
       </Helmet>
-      <div className="alert alert-danger" role="alert">
-        This page is not complete and is a work in progress. Highlighted teams
-        are not final. Simply for UI testing purposes.
-      </div>
       <div className="px-4 pt-4 pb-5 text-center">
         <div className="clearfix">
           <img

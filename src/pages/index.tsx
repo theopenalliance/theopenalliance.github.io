@@ -5,48 +5,63 @@ import Layout from "../components/Layout";
 import logo from "../images/logo/darkbg.png";
 
 export default function Index(): JSX.Element {
+  const guidelines: (JSX.Element | String)[] = [
+    "Open Alliance teams don't keep secrets.",
+    "Open Alliance teams do their best to share updates at least once a week.",
+    "Open Alliance teams primarily post updates to ChiefDelphi.",
+    "Open Alliance teams provide open CAD and/or open code.",
+    "Open Alliance teams include the bad with the good.",
+    "Open Alliance teams join to help everyone - not just other Open Alliance teams.",
+  ];
+
   return (
     <Layout>
       <Helmet>
         <title>The Open Alliance</title>
       </Helmet>
-      <Container className="container col-xxl-8 px-4 py-5">
-        <Row className="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div className="col-10 col-sm-8 col-lg-6">
+      <Container className="container col-xxl-10 px-4 py-5">
+        <Row className="row g-5 py-5 align-items-center">
+          <div className="col-md-auto">
             <img
               src={logo}
-              className="d-block mx-lg-auto img-fluid"
+              className=""
               alt="OA Logo"
-              width="700"
-              height="500"
+              width="250"
+              height="250"
               loading="lazy"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col">
             <h1 className="display-5 fw-bold lh-1 mb-3 oa">
               The Open Alliance
             </h1>
             <p className="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              The Open Alliance is a group of teams that openly share designs,
+              code, and processes. The goal of The Open Alliance is to foster a
+              culture of collaboration and innovation within FIRST.
             </p>
           </div>
         </Row>
       </Container>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
+      <Container className="container col-xxl-12 px-4 py-5">
+        <Row className="row g-5">
+          <h1 className="display-5 fw-bold lh-1 mb-3 oa px-0">Guidelines</h1>
+        </Row>
+        {guidelines.map((gl, idx) => (
+          <Row>
+            {idx + 1}. {gl}
+          </Row>
+        ))}
+      </Container>
+      todo:
+      <ul>
+        <li>
+          TOA show playlist:
+          https://www.youtube.com/playlist?list=PLkZ6_Ld1x9Y8bSo4O4hUBKgyL9e5uscD3
+        </li>
+        <li>CD search for #openalliance</li>
+        <li>discord link</li>
+      </ul>
     </Layout>
   );
 }
