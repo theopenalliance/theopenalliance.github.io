@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Layout from "../../components/Layout";
 import logo from "../../images/logo/darkbg.png";
 
 import Table from "react-bootstrap/Table";
 import { Button, ButtonGroup } from "react-bootstrap";
 import { Helmet } from "react-helmet";
+import useFetch from "use-http";
+import { AllOriginsResponse, CDThread } from "../../cdTypes";
 
 interface Media {
   url: string;
@@ -431,6 +433,68 @@ const spotlightTeams: TeamInfo[] = allTeams.filter((t) =>
   ].includes(t.number)
 );
 
+function TeamInfoRow(props: { teamInfo: TeamInfo }): JSX.Element {
+  const [buildThreadUrl, _] = useState(
+    props.teamInfo.media?.filter((m) => m.name === "Build Thread")?.[0].url
+  );
+  const [cdData, setCdData] = useState<CDThread | null>(null);
+
+  const { loading, error, data } = useFetch<AllOriginsResponse>(
+    buildThreadUrl !== undefined
+      ? `https://api.allorigins.win/get?url=${encodeURIComponent(
+          buildThreadUrl + ".json"
+        )}`
+      : "",
+    {},
+    []
+  );
+
+  useEffect(() => {
+    if (!loading && error === undefined && data !== undefined) {
+      setCdData(JSON.parse(data.contents) as CDThread);
+    }
+  }, [loading]);
+
+  return (
+    <tr className="align-middle">
+      <td>
+        <a
+          href={`https://www.thebluealliance.com/team/${props.teamInfo.number}/2022`}
+        >
+          {props.teamInfo.number}
+        </a>
+      </td>
+      <td>{props.teamInfo.name}</td>
+      <td>{props.teamInfo.location}</td>
+      <td>
+        <ButtonGroup>
+          {props.teamInfo.media?.map((m) => (
+            <Button
+              href={m.url}
+              variant="outline-primary"
+              size="sm"
+              className="text-nowrap"
+              key={m.url}
+            >
+              {m.name}
+            </Button>
+          ))}
+        </ButtonGroup>
+      </td>
+      <td>{cdData === null ? "" : cdData.views.toLocaleString()}</td>
+      <td>{cdData === null ? "" : cdData.posts_count.toLocaleString()}</td>
+      <td>
+        {cdData === null
+          ? ""
+          : new Date(Date.parse(cdData.last_posted_at)).toLocaleDateString(
+              "en-us",
+              { month: "short", day: "numeric", year: "numeric" }
+            )}
+      </td>
+    </tr>
+  );
+}
+
 function TeamInfoTable(props: { teamInfo: TeamInfo[] }): JSX.Element {
   return (
     <Table hover responsive>
@@ -440,33 +504,14 @@ function TeamInfoTable(props: { teamInfo: TeamInfo[] }): JSX.Element {
           <th>Name</th>
           <th>Location</th>
           <th>Public Links</th>
+          <th>Thread Views</th>
+          <th># Posts</th>
+          <th>Last Post</th>
         </tr>
       </thead>
       <tbody>
         {props.teamInfo.map((t) => (
-          <tr className="align-middle">
-            <td>
-              <a href={`https://www.thebluealliance.com/team/${t.number}/2022`}>
-                {t.number}
-              </a>
-            </td>
-            <td>{t.name}</td>
-            <td>{t.location}</td>
-            <td>
-              <ButtonGroup>
-                {t.media?.map((m) => (
-                  <Button
-                    href={m.url}
-                    variant="outline-primary"
-                    size="sm"
-                    className="text-nowrap"
-                  >
-                    {m.name}
-                  </Button>
-                ))}
-              </ButtonGroup>
-            </td>
-          </tr>
+          <TeamInfoRow teamInfo={t} key={t.name} />
         ))}
       </tbody>
     </Table>
@@ -492,6 +537,7 @@ function TinyHighlight(props: { team: TeamInfo }): JSX.Element {
               variant="outline-primary"
               size="sm"
               className="text-nowrap"
+              key={m.url}
             >
               {m.name}
             </Button>
@@ -521,13 +567,10 @@ export default function Teams2022(): JSX.Element {
           <span className="h1 align-middle ps-2">2022 Highlighted Teams</span>
         </div>
         <div className="">
-          {/* <p className="lead mb-4"></p> */}
-          {/* <TeamInfoTable teamInfo={spotlightTeams} />/ */}
-
           <div className="container px-4 pb-3" id="hanging-icons">
             <div className="row g-5 py-4 row-cols-xxl-3 row-cols-lg-2 row-cols-sm-1">
               {spotlightTeams.map((t) => (
-                <TinyHighlight team={t} />
+                <TinyHighlight team={t} key={t.name} />
               ))}
             </div>
           </div>

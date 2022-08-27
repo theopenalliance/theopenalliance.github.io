@@ -35,7 +35,8 @@
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
-    "sass": "^1.53.0"
+    "sass": "^1.53.0",
+    "use-http": "^1.0.26"
   },
   "devDependencies": {
     "@types/node": "^17.0.45",
