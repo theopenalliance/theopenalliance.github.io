@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import Layout from "../../components/Layout";
 import logo from "../../images/logo/darkbg.png";
 
-import Table from "react-bootstrap/Table";
 import { Button, ButtonGroup } from "react-bootstrap";
+import Table from "react-bootstrap/Table";
 import { Helmet } from "react-helmet";
 import useFetch from "use-http";
 import { AllOriginsResponse, CDThread } from "../../cdTypes";
@@ -26,12 +26,7 @@ const Photos = (url: string): Media => ({ url, name: "Photos" });
 const YouTube = (url: string): Media => ({ url, name: "YouTube" });
 const Code = (url: string): Media => ({ url, name: "Code" });
 
-// const spotlightTeams: TeamInfo[] = [
-
-// ].sort((a, b) => a.number - b.number);
-
 const allTeams: TeamInfo[] = [
-  // ...spotlightTeams,
   {
     number: 95,
     name: "Grasshoppers",
