@@ -26,3 +26,26 @@ $font-family-base: "Open Sans", sans-serif;
   font-family: "Glacial Indifference";
   font-weight: bold;
 }
+
+table {
+  thead {
+    tr {
+      th:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 9999;
+        background-color: white;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 9999;
+        background-color: white;
+      }
+    }
+  }
+}

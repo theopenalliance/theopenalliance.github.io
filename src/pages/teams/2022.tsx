@@ -525,7 +525,7 @@ function TinyHighlight(props: { team: TeamInfo }): JSX.Element {
           {props.team.number} - {props.team.name}
         </a>
         <p>{props.team.location}</p>
-        <ButtonGroup>
+        <ButtonGroup style={{ flexWrap: "wrap" }}>
           {props.team.media?.map((m) => (
             <Button
               href={m.url}
@@ -563,7 +563,7 @@ export default function Teams2022(): JSX.Element {
         </div>
         <div className="">
           <div className="container px-4 pb-3" id="hanging-icons">
-            <div className="row g-5 py-4 row-cols-xxl-3 row-cols-lg-2 row-cols-sm-1">
+            <div className="row g-5 py-5 row-cols-xxl-3 row-cols-lg-2 row-cols-sm-1">
               {spotlightTeams.map((t) => (
                 <TinyHighlight team={t} key={t.name} />
               ))}

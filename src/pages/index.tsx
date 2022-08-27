@@ -43,22 +43,28 @@ export default function Index(): JSX.Element {
           </div>
         </Row>
       </Container>
-      <Container className="container col-xxl-12 px-4 py-5">
-        <Row className="row g-5">
-          <h1 className="display-5 fw-bold lh-1 mb-3 oa px-0">Guidelines</h1>
-        </Row>
+      <Container className="container px-4 pb-5">
+        <h1 className="fw-bold mb-3 px-0">Guidelines</h1>
         {guidelines.map((gl, idx) => (
-          <Row>
+          <div>
             {idx + 1}. {gl}
-          </Row>
+          </div>
         ))}
+      </Container>
+      <Container className="container">
+        <h1 className="fw-bold px-0">Get Involved</h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/videoseries?list=PLkZ6_Ld1x9Y8bSo4O4hUBKgyL9e5uscD3"
+          title="YouTube video player"
+          frameBorder={0}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </Container>
       todo:
       <ul>
-        <li>
-          TOA show playlist:
-          https://www.youtube.com/playlist?list=PLkZ6_Ld1x9Y8bSo4O4hUBKgyL9e5uscD3
-        </li>
         <li>CD search for #openalliance</li>
         <li>discord link</li>
       </ul>
