@@ -515,7 +515,7 @@ function TeamInfoTable(props: { teamInfo: TeamInfo[] }): JSX.Element {
 
 function TinyHighlight(props: { team: TeamInfo }): JSX.Element {
   return (
-    <div className="col d-flex align-items-start">
+    <div className="col-sm d-flex align-items-start">
       <div className="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"></div>
       <div className="text-start">
         <a
@@ -563,7 +563,7 @@ export default function Teams2022(): JSX.Element {
         </div>
         <div className="">
           <div className="container px-4 pb-3" id="hanging-icons">
-            <div className="row g-5 py-5 row-cols-4">
+            <div className="row g-5 py-5 row-cols-1 row-cols-md-4">
               {spotlightTeams.map((t) => (
                 <TinyHighlight team={t} key={t.name} />
               ))}

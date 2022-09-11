@@ -43,19 +43,22 @@ export default function Index(): JSX.Element {
         <h1 className="fw-bold px-0">Get Involved</h1>
 
         <Row>
-          <Col>
+          <div className="col-sm">
             <h5>FIRST Updates Now content</h5>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/videoseries?list=PLkZ6_Ld1x9Y8bSo4O4hUBKgyL9e5uscD3"
-              title="YouTube video player"
-              frameBorder={0}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </Col>
-          <Col>
+            <div className="iframe-container">
+              <iframe
+                // width="560"
+                // height="315"
+                className="responsive-iframe"
+                src="https://www.youtube.com/embed/videoseries?list=PLkZ6_Ld1x9Y8bSo4O4hUBKgyL9e5uscD3"
+                title="YouTube video player"
+                frameBorder={0}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+          <div className="col-sm">
             <div className="vstack gap-2 ">
               <a href="/join" className="btn btn-primary">
                 Join The Open Alliance
@@ -73,7 +76,7 @@ export default function Index(): JSX.Element {
                 Open Alliance Discord
               </a>
             </div>
-          </Col>
+          </div>
         </Row>
       </Container>
     </Layout>
