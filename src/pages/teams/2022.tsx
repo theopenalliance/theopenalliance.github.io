@@ -434,21 +434,21 @@ function TeamInfoRow(props: { teamInfo: TeamInfo }): JSX.Element {
   );
   const [cdData, setCdData] = useState<CDThread | null>(null);
 
-  const { loading, error, data } = useFetch<AllOriginsResponse>(
-    buildThreadUrl !== undefined
-      ? `https://api.allorigins.win/get?url=${encodeURIComponent(
-          buildThreadUrl + ".json"
-        )}`
-      : "",
-    {},
-    []
-  );
+  // const { loading, error, data } = useFetch<AllOriginsResponse>(
+  //   buildThreadUrl !== undefined
+  //     ? `https://api.allorigins.win/get?url=${encodeURIComponent(
+  //         buildThreadUrl + ".json"
+  //       )}`
+  //     : "",
+  //   {},
+  //   []
+  // );
 
-  useEffect(() => {
-    if (!loading && error === undefined && data !== undefined) {
-      setCdData(JSON.parse(data.contents) as CDThread);
-    }
-  }, [loading]);
+  // useEffect(() => {
+  //   if (!loading && error === undefined && data !== undefined) {
+  //     setCdData(JSON.parse(data.contents) as CDThread);
+  //   }
+  // }, [loading]);
 
   return (
     <tr className="align-middle">
@@ -476,7 +476,7 @@ function TeamInfoRow(props: { teamInfo: TeamInfo }): JSX.Element {
           ))}
         </ButtonGroup>
       </td>
-      <td>{cdData === null ? "" : cdData.views.toLocaleString()}</td>
+      {/* <td>{cdData === null ? "" : cdData.views.toLocaleString()}</td>
       <td>{cdData === null ? "" : cdData.posts_count.toLocaleString()}</td>
       <td>
         {cdData === null
@@ -485,7 +485,7 @@ function TeamInfoRow(props: { teamInfo: TeamInfo }): JSX.Element {
               "en-us",
               { month: "short", day: "numeric", year: "numeric" }
             )}
-      </td>
+      </td> */}
     </tr>
   );
 }
@@ -499,9 +499,9 @@ function TeamInfoTable(props: { teamInfo: TeamInfo[] }): JSX.Element {
           <th>Name</th>
           <th>Location</th>
           <th>Public Links</th>
-          <th>Thread Views</th>
+          {/* <th>Thread Views</th>
           <th># Posts</th>
-          <th>Last Post</th>
+          <th>Last Post</th> */}
         </tr>
       </thead>
       <tbody>
@@ -563,7 +563,7 @@ export default function Teams2022(): JSX.Element {
         </div>
         <div className="">
           <div className="container px-4 pb-3" id="hanging-icons">
-            <div className="row g-5 py-5 row-cols-xxl-3 row-cols-lg-2 row-cols-sm-1">
+            <div className="row g-5 py-5 row-cols-4">
               {spotlightTeams.map((t) => (
                 <TinyHighlight team={t} key={t.name} />
               ))}

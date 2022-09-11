@@ -1,19 +1,11 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { Helmet } from "react-helmet";
+import Guidelines from "../components/Guidelines";
 import Layout from "../components/Layout";
 import logo from "../images/logo/darkbg.png";
 
 export default function Index(): JSX.Element {
-  const guidelines: (JSX.Element | String)[] = [
-    "Open Alliance teams don't keep secrets.",
-    "Open Alliance teams do their best to share updates at least once a week.",
-    "Open Alliance teams primarily post updates to ChiefDelphi.",
-    "Open Alliance teams provide open CAD and/or open code.",
-    "Open Alliance teams include the bad with the good.",
-    "Open Alliance teams join to help everyone - not just other Open Alliance teams.",
-  ];
-
   return (
     <Layout>
       <Helmet>
@@ -45,29 +37,45 @@ export default function Index(): JSX.Element {
       </Container>
       <Container className="container px-4 pb-5">
         <h1 className="fw-bold mb-3 px-0">Guidelines</h1>
-        {guidelines.map((gl, idx) => (
-          <div>
-            {idx + 1}. {gl}
-          </div>
-        ))}
+        <Guidelines />
       </Container>
       <Container className="container">
         <h1 className="fw-bold px-0">Get Involved</h1>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/videoseries?list=PLkZ6_Ld1x9Y8bSo4O4hUBKgyL9e5uscD3"
-          title="YouTube video player"
-          frameBorder={0}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+
+        <Row>
+          <Col>
+            <h5>FIRST Updates Now content</h5>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/videoseries?list=PLkZ6_Ld1x9Y8bSo4O4hUBKgyL9e5uscD3"
+              title="YouTube video player"
+              frameBorder={0}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </Col>
+          <Col>
+            <div className="vstack gap-2 ">
+              <a href="/join" className="btn btn-primary">
+                Join The Open Alliance
+              </a>
+              <a
+                href="https://www.chiefdelphi.com/tag/openalliance"
+                className="btn btn-primary"
+              >
+                #openalliance on ChiefDelphi
+              </a>
+              <a
+                href="https://discord.gg/qAw6NtRTwC"
+                className="btn btn-secondary"
+              >
+                Open Alliance Discord
+              </a>
+            </div>
+          </Col>
+        </Row>
       </Container>
-      todo:
-      <ul>
-        <li>CD search for #openalliance</li>
-        <li>discord link</li>
-      </ul>
     </Layout>
   );
 }

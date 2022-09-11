@@ -23,13 +23,13 @@ export default function Navbar_(): JSX.Element {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="link-light">
+            <Nav.Link href="/join" className="link-light">
               Join
             </Nav.Link>
             <Nav.Link href="/teams/2022" className="link-light">
               2022 Teams
             </Nav.Link>
-            <Nav.Link href="#link" className="link-light">
+            <Nav.Link href="/teams/2023" className="link-light">
               2023 Teams
             </Nav.Link>
           </Nav>
