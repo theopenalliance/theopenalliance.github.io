@@ -44,7 +44,7 @@ export default function Index(): JSX.Element {
 
         <Row>
           <div className="col-sm">
-            <h5>FIRST Updates Now content</h5>
+            <h5>The Open Alliance Show</h5>
             <div className="iframe-container">
               <iframe
                 // width="560"
