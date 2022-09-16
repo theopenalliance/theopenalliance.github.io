@@ -1,4 +1,4 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import Guidelines from "../components/Guidelines";
@@ -69,12 +69,23 @@ export default function Index(): JSX.Element {
               >
                 #openalliance on ChiefDelphi
               </a>
-              <a
-                href="https://discord.gg/qAw6NtRTwC"
+              <button
+                type="button"
                 className="btn btn-secondary"
+                disabled
+                style={
+                  {
+                    "-webkit-touch-callout": "text",
+                    "-webkit-user-select": "text",
+                    "-khtml-user-select": "text",
+                    "-moz-user-select": "text",
+                    "-ms-user-select": "text",
+                    "user-select": "text",
+                  } as CSSProperties
+                }
               >
-                Open Alliance Discord
-              </a>
+                Open Alliance Discord Code: qAw6NtRTwC
+              </button>
             </div>
           </div>
         </Row>
