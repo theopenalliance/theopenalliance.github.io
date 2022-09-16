@@ -162,6 +162,10 @@ const allTeams: TeamInfo[] = [
       CD(
         "https://www.chiefdelphi.com/t/frc-4099-the-falcons-2022-build-blog/398376"
       ),
+      CAD(
+        "https://cad.onshape.com/documents/e16f67e7e4025da1d7e26edb/w/7f22d15c129695a9b48949bb/e/6d50ba5d43e6b1fced8a64fc?renderMode=0&uiState=61c60621e4237f79d5b5d01c"
+      ),
+      Code("https://github.com/team4099/RapidReact-2022"),
     ],
   },
   {
@@ -170,7 +174,7 @@ const allTeams: TeamInfo[] = [
     location: "Columbus, IN",
     media: [
       CD("https://www.chiefdelphi.com/t/galactech-4926-build-blog-2022/398705"),
-      CAD("https://a360.co/3JMEXfi"),
+      CAD("https://a360.co/3DFLE2v"),
     ],
   },
   {
@@ -190,6 +194,7 @@ const allTeams: TeamInfo[] = [
         "https://www.chiefdelphi.com/t/frc-7461-sushi-squad-2022-build-thread/398649"
       ),
       Code("https://github.com/SushiSquad7461/2022takowoyaki"),
+      YouTube("https://www.youtube.com/channel/UCSWVYWi4sqoSMJUbNg34tOQ"),
       {
         name: "Offseason CAD",
         url: "https://cad.onshape.com/documents/5d34372cc647f58f08a28399",
@@ -256,6 +261,7 @@ const allTeams: TeamInfo[] = [
       CD(
         "https://www.chiefdelphi.com/t/frc-5431-titan-robotics-2022-build-thread/400408"
       ),
+      Code("https://github.com/frc5431/RobotCode2022"),
     ],
   },
   {
@@ -285,6 +291,9 @@ const allTeams: TeamInfo[] = [
         "https://www.chiefdelphi.com/t/spartatroniks-3512-build-blog-2022/400462"
       ),
       Code("https://github.com/frc3512/Robot-2022"),
+      CAD(
+        "https://workbench.grabcad.com/workbench/projects/gcM7PoUCDPGEDtpBrctGTxy7IH1BYj2tG_4GhlI_HaUSKI#/space/gcQwnPBs1fGoj9r1qIF-j87Pfzk9c-cO_FWhIWtQ6Zf1xX"
+      ),
     ],
   },
   {
