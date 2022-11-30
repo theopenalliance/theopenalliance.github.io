@@ -25,6 +25,7 @@ const CAD = (url: string): Media => ({ url, name: "CAD" });
 const Photos = (url: string): Media => ({ url, name: "Photos" });
 const YouTube = (url: string): Media => ({ url, name: "YouTube" });
 const Code = (url: string): Media => ({ url, name: "Code" });
+const Linktree = (url: string): Media => ({ url, name: "LinkTree" });
 
 const allTeams: TeamInfo[] = [
   {
@@ -83,6 +84,7 @@ const allTeams: TeamInfo[] = [
         "https://cad.onshape.com/documents/cd0b0e474e581bdfec4f150d/w/373f57dad67277118d0ce57f/e/c2171cda5e1e5e8ab11e90ac"
       ),
       Code("https://github.com/FRC3636/frc-2022"),
+      Linktree("https://linktr.ee/Generals3636"),
     ],
   },
   {
@@ -148,6 +150,10 @@ const allTeams: TeamInfo[] = [
       CD(
         "https://www.chiefdelphi.com/t/frc-7407-2022-open-alliance-build-thread/398674"
       ),
+      CAD(
+        "https://cad.onshape.com/documents/5d38ac872f492af82733f56d/w/4af9dd916c9a9c90f0b68f54/e/7d75120ac9f3c690d0761aa4?renderMode=0&uiState=632b92e6ed490e04156caae2"
+      ),
+      Code("https://github.com/Choate-Robotics/7407-DriveCode-2021-Python"),
       {
         name: "Offseason Thread",
         url: "https://www.chiefdelphi.com/t/7407-offseason-upgrades-open-alliance/413213",
@@ -312,6 +318,11 @@ const allTeams: TeamInfo[] = [
     location: "Istanbul, Turkey",
     media: [
       CD("https://www.chiefdelphi.com/t/x-sharc-6838-build-blog-2022/398883"),
+      YouTube("https://www.youtube.com/channel/UC0oGwtQwj7YQhHT5ZtlZo9Q"),
+      CAD(
+        "https://cad.onshape.com/documents/9b935b486dbc9848cde5923c/w/cdf45017149700a53b7c980f/e/55b4ae123700393e44ffcd5a?renderMode=0&uiState=62e2cde7"
+      ),
+      Code("https://github.com/X-SHARC/FRC2022"),
     ],
   },
   {

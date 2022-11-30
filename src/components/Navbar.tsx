@@ -20,7 +20,17 @@ export default function Navbar_(): JSX.Element {
             The Open Alliance
           </span>
         </NavbarBrand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className="navbar-light"
+          style={{
+            // The hamburger icon is an svg so we need to put a filter on it to recolor it.
+            // This changes it to white so it's more visible
+            // https://stackoverflow.com/a/53336754
+            filter:
+              "invert(100%) sepia(0%) saturate(0%) hue-rotate(332deg) brightness(105%) contrast(103%)",
+          }}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/join" className="link-light">
