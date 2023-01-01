@@ -33,8 +33,39 @@ const allTeams: TeamInfo[] = [
     media: [],
   },
   { number: 1339, name: "AngelBotics", location: "Denver, CO", media: [] },
-  { number: 3506, name: "YETI Robotics", location: "Charlotte, NC", media: [] },
-  { number: 3512, name: "Spartatroniks", location: "Orcutt, CA", media: [] },
+  {
+    number: 3506,
+    name: "YETI Robotics",
+    location: "Charlotte, NC",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-3506-yeti-robotics-2023-build-thread/420267"
+      ),
+      CAD(
+        "https://workbench.grabcad.com/workbench/projects/gcsk616gCdVvqH6jOjA261Fr03P2kKkb4rglN0IL1kVqZt?#/folder/13160319"
+      ),
+      Code("https://github.com/Yeti-Robotics"),
+    ],
+  },
+  {
+    number: 3512,
+    name: "Spartatroniks",
+    location: "Orcutt, CA",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/3512-spartatroniks-build-blog-open-alliance-2023/418947"
+      ),
+      Code("https://github.com/frc3512"),
+      CAD(
+        "https://workbench.grabcad.com/workbench/projects/gc2QpCbtsXB0WYZOoEQInKtMroc71pRGffMzrLpx68-Xgt#/space/gcZaiGNfkLJXPPyMnXNcMDr6KJZ9FaeUooiJDeN_P_H-Wf"
+      ),
+      Photos("https://sites.google.com/view/3512spartatroniksmedia/home"),
+      {
+        name: "COTS CAD Library",
+        url: "https://workbench.grabcad.com/workbench/projects/gc4O3Z0_sPNIdHRjfPE_iq3czqY5BlDHvNkJIi2jkm-gmy#/space/gci_GAXOKsHWGfqjw4E18j-yAbWi1Tyxlq2iZjNG83wawu",
+      },
+    ],
+  },
   { number: 3636, name: "Generals", location: "Portland, OR", media: [] },
   { number: 3847, name: "Spectrum -△◅", location: "Houston, TX", media: [] },
   {
@@ -51,7 +82,18 @@ const allTeams: TeamInfo[] = [
   },
   { number: 7407, name: "Wired Boars", location: "Wallingford, CT", media: [] },
   { number: 7461, name: "Sushi Squad", location: "Redmond, WA", media: [] },
-  { number: 7492, name: "CavBots", location: "The Woodlands, TX", media: [] },
+  {
+    number: 7492,
+    name: "CavBots",
+    location: "The Woodlands, TX",
+    media: [
+      CD("https://www.chiefdelphi.com/t/7492-cavbots-2023-build-blog/419193"),
+      Code("https://github.com/CAVALIER-ROBOTICS"),
+      CAD(
+        "https://drive.google.com/drive/u/1/folders/1xcI9X9NRQvGNm-n0PRADuEVE8wNkig7h"
+      ),
+    ],
+  },
   { number: 8177, name: "Vector", location: "Tomball, TX", media: [] },
 ].sort((a, b) => a.number - b.number);
 
