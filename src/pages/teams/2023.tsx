@@ -30,7 +30,11 @@ const allTeams: TeamInfo[] = [
     number: 95,
     name: "Grasshoppers",
     location: "White River Junction, VT",
-    media: [],
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-95-the-grasshoppers-2023-build-thread/419845"
+      ),
+    ],
   },
   { number: 1339, name: "AngelBotics", location: "Denver, CO", media: [] },
   {
@@ -67,18 +71,46 @@ const allTeams: TeamInfo[] = [
     ],
   },
   { number: 3636, name: "Generals", location: "Portland, OR", media: [] },
-  { number: 3847, name: "Spectrum -△◅", location: "Houston, TX", media: [] },
+  {
+    number: 3847,
+    name: "Spectrum -△◅",
+    location: "Houston, TX",
+    media: [
+      CD("https://www.chiefdelphi.com/t/spectrum-3847-build-blog-2023/420801"),
+      CAD(
+        "https://cad.onshape.com/documents/de43bfb90686cd44b0870071/w/9d183c2710bcbdcce0b821b4/e/52ffe457d07a49279860d194?renderMode=0&uiState=63b7aed2d3bd0406c606b6a5"
+      ),
+      Code("https://github.com/Spectrum3847/2023-X-Ray"),
+      Photos("http://2023photos.spectrum3847.org/"),
+      {
+        name: "Design Slides",
+        url: "https://docs.google.com/presentation/d/1PCG7xz6cOJPDSg3FQJiweLXDGKiCXPeEejoiuwV4ep8/",
+      },
+    ],
+  },
   {
     number: 4481,
     name: "Team Rembrandts",
     location: "Eindhoven, Netherlands",
-    media: [],
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-4481-team-rembrandts-2023-build-thread/41962"
+      ),
+    ],
   },
   {
     number: 6328,
     name: "Mechanical Advantage",
     location: "Littleton, MA",
-    media: [],
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2023-build-thread/420691"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/7b17c8664d1313c397a0fcf3/w/61b5c8329f7f5c6023f50c77/e/a7d35eb44465ab8189abf328"
+      ),
+      Code("https://github.com/Mechanical-Advantage/RobotCode2023"),
+    ],
   },
   { number: 7407, name: "Wired Boars", location: "Wallingford, CT", media: [] },
   { number: 7461, name: "Sushi Squad", location: "Redmond, WA", media: [] },
