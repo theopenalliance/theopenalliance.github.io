@@ -94,7 +94,7 @@ const allTeams: TeamInfo[] = [
     location: "Eindhoven, Netherlands",
     media: [
       CD(
-        "https://www.chiefdelphi.com/t/frc-4481-team-rembrandts-2023-build-thread/41962"
+        "https://www.chiefdelphi.com/t/frc-4481-team-rembrandts-2023-build-thread/419624"
       ),
     ],
   },
