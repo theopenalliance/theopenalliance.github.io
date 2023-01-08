@@ -112,7 +112,16 @@ const allTeams: TeamInfo[] = [
       Code("https://github.com/Mechanical-Advantage/RobotCode2023"),
     ],
   },
-  { number: 7407, name: "Wired Boars", location: "Wallingford, CT", media: [] },
+  {
+    number: 7407,
+    name: "Wired Boars",
+    location: "Wallingford, CT",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/7407-the-wired-boars-open-alliance-build-thread-2023/421571"
+      ),
+    ],
+  },
   { number: 7461, name: "Sushi Squad", location: "Redmond, WA", media: [] },
   {
     number: 7492,
@@ -127,6 +136,65 @@ const allTeams: TeamInfo[] = [
     ],
   },
   { number: 8177, name: "Vector", location: "Tomball, TX", media: [] },
+
+  //
+  {
+    number: 1757,
+    name: "Wolverines",
+    location: "Westwood, MA",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-1757-wolverines-2022-2023-build-thread/416564"
+      ),
+      Code("https://github.com/1757WestwoodRobotics/2023-ChargedUp"),
+    ],
+  },
+  {
+    number: 2582,
+    name: "PantherBots",
+    location: "Lufkin, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/2582-pantherbots-build-blog-open-alliance-2023/419467"
+      ),
+    ],
+  },
+  {
+    number: 4099,
+    name: "The Falcons",
+    location: "Poolesville, MD",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-4099-the-falcons-2023-build-blog/420328"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/6b2c6faaaaa4880c7ea8ef34/w/c2ad5add28c351427b5e329%5B%E2%80%A6%5D58f8604bba3bf43?renderMode=0&uiState=63aa873679ac0f545a07059c"
+      ),
+      Code("https://github.com/team4099/ChargedUp-2023"),
+    ],
+  },
+  {
+    number: 5119,
+    name: "Team STEAM",
+    location: "Lawrence, KS",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/5119-open-alliance-build-thread/419226"
+      ),
+      CAD(
+        "https://workbench.grabcad.com/workbench/projects/gcQYQcQm7qEqhg__dfrLLm-t-Aa99Meb_BQspqceNaLdIR#/space/gcyeG68w0ROpBNKOyQh1ZiGPbjS_393W_FrTKu-xlYx_Q6"
+      ),
+    ],
+  },
+  {
+    number: 6838,
+    name: "X-SHARC",
+    location: "Istanbul, TR",
+    media: [
+      CD("https://www.chiefdelphi.com/t/x-sharc-6838-build-blog-2023/420915"),
+      Code("https://github.com/X-SHARC"),
+    ],
+  },
 ].sort((a, b) => a.number - b.number);
 
 const spotlightTeams: TeamInfo[] = allTeams.filter((t) =>
