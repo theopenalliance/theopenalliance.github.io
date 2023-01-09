@@ -160,6 +160,14 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 3467,
+    name: "Windham Windup",
+    location: "Windham, NH",
+    media: [
+      CD("https://www.chiefdelphi.com/t/team-3467-2023-build-blog/417264"),
+    ],
+  },
+  {
     number: 4099,
     name: "The Falcons",
     location: "Poolesville, MD",
