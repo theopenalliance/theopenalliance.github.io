@@ -36,7 +36,14 @@ const allTeams: TeamInfo[] = [
       ),
     ],
   },
-  { number: 1339, name: "AngelBotics", location: "Denver, CO", media: [] },
+  {
+    number: 1339,
+    name: "AngelBotics",
+    location: "Denver, CO",
+    media: [
+      CD("https://www.chiefdelphi.com/t/1339-open-alliance-blog-2023/419469"),
+    ],
+  },
   {
     number: 3506,
     name: "YETI Robotics",
@@ -70,7 +77,21 @@ const allTeams: TeamInfo[] = [
       },
     ],
   },
-  { number: 3636, name: "Generals", location: "Portland, OR", media: [] },
+  {
+    number: 3636,
+    name: "Generals",
+    location: "Portland, OR",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/3636-generals-2023-build-thread/420237"
+      ),
+      Code("https://github.com/FRC3636/frc-2023"),
+      CAD(
+        "https://cad.onshape.com/documents/45fc202da3f47c5a02e4bd70/w/b3df31d228ec8822a1108ce9/e/6f548eacf684f79cebdf6008"
+      ),
+      Linktree("https://linktr.ee/Generals3636"),
+    ],
+  },
   {
     number: 3847,
     name: "Spectrum -△◅",
@@ -122,7 +143,17 @@ const allTeams: TeamInfo[] = [
       ),
     ],
   },
-  { number: 7461, name: "Sushi Squad", location: "Redmond, WA", media: [] },
+  {
+    number: 7461,
+    name: "Sushi Squad",
+    location: "Redmond, WA",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-7461-sushi-squad-2023-build-thread/421793"
+      ),
+      Code("https://github.com/SushiSquad7461/2023-temaki"),
+    ],
+  },
   {
     number: 7492,
     name: "CavBots",
@@ -135,7 +166,20 @@ const allTeams: TeamInfo[] = [
       ),
     ],
   },
-  { number: 8177, name: "Vector", location: "Tomball, TX", media: [] },
+  {
+    number: 8177,
+    name: "Vector",
+    location: "Tomball, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/vector-8177-build-thread-open-alliance-2023/420478"
+      ),
+      Code("https://github.com/Vector8177/2023-Vector-Robot"),
+      CAD(
+        "https://cad.onshape.com/documents/d4e4908687aabe80063400e1/w/62e86f1d5af7934718aa286b/e/afe77124be83abc5c41a82bd?renderMode=0&uiState=63ae1d2751c8f322226c0991"
+      ),
+    ],
+  },
 
   //
   {
@@ -150,12 +194,32 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 2158,
+    name: "ausTIN CANs",
+    location: "Austin, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/austin-cans-2158-2023-build-blog/420869"
+      ),
+    ],
+  },
+  {
     number: 2582,
     name: "PantherBots",
     location: "Lufkin, TX",
     media: [
       CD(
         "https://www.chiefdelphi.com/t/2582-pantherbots-build-blog-open-alliance-2023/419467"
+      ),
+    ],
+  },
+  {
+    number: 3161,
+    name: "Tronic Titans",
+    location: "Oakville, ON",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/tronic-titans-3161-build-thread-open-alliance-2023/421032"
       ),
     ],
   },
@@ -182,6 +246,25 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 4329,
+    name: "Lutheran Roboteers",
+    location: "Saint Peters, MO",
+    media: [
+      CD("https://www.chiefdelphi.com/t/frc-4329-2023-build-thread/419733/"),
+      Code("https://github.com/4329"),
+    ],
+  },
+  {
+    number: 5013,
+    name: "Trobots",
+    location: "Kansas City, MO",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/5013-the-trobots-2023-charged-up-open-alliance-build-thread/419112"
+      ),
+    ],
+  },
+  {
     number: 5119,
     name: "Team STEAM",
     location: "Lawrence, KS",
@@ -192,6 +275,25 @@ const allTeams: TeamInfo[] = [
       CAD(
         "https://workbench.grabcad.com/workbench/projects/gcQYQcQm7qEqhg__dfrLLm-t-Aa99Meb_BQspqceNaLdIR#/space/gcyeG68w0ROpBNKOyQh1ZiGPbjS_393W_FrTKu-xlYx_Q6"
       ),
+    ],
+  },
+  {
+    number: 5414,
+    name: "Pearadox",
+    location: "Pearland, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-5414-pearadox-2023-build-thread/420629/"
+      ),
+    ],
+  },
+  {
+    number: 5987,
+    name: "Galaxia in memory of David Zohar",
+    location: "Haifa, Israel",
+    media: [
+      CD("https://www.chiefdelphi.com/t/5987-galaxia-2023-build-thread/420543"),
+      Code("https://github.com/Galaxia5987"),
     ],
   },
   {
