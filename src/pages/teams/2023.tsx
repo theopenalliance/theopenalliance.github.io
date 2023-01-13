@@ -323,6 +323,14 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 4926,
+    name: "GalacTech",
+    location: "Columbus, IN",
+    media: [
+      CD("https://www.chiefdelphi.com/t/galactech-4926-build-blog-2023/420401"),
+    ],
+  },
+  {
     number: 5013,
     name: "Trobots",
     location: "Kansas City, MO",
