@@ -34,6 +34,11 @@ const allTeams: TeamInfo[] = [
       CD(
         "https://www.chiefdelphi.com/t/frc-95-the-grasshoppers-2023-build-thread/419845"
       ),
+      Code("https://github.com/first95"),
+      CAD(
+        "https://cad.onshape.com/documents/f39c65f0231d5f8868892a7b/w/992aa826d21f73a3e6208eac/e/baa93adb8eec6a291f849550"
+      ),
+      Photos("https://imgur.com/a/otSElpv"),
     ],
   },
   {
@@ -183,6 +188,30 @@ const allTeams: TeamInfo[] = [
 
   //
   {
+    number: 342,
+    name: "Burning Magnetos",
+    location: "North Charleston, SC",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/342-the-burning-magnetos-2023-open-alliance-build-blog/419198"
+      ),
+    ],
+  },
+  {
+    number: 1675,
+    name: "UPS",
+    location: "Milwaukee, WI",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/1675-ups-open-alliance-build-thread/419479"
+      ),
+      Code("https://github.com/frc1675"),
+      CAD(
+        "https://cad.onshape.com/documents/29513bb20d40edfa37fa2393/w/e1f8d8ce1eb8fe1e955311e8/e/660513d2a0183a629db6e53c"
+      ),
+    ],
+  },
+  {
     number: 1757,
     name: "Wolverines",
     location: "Westwood, MA",
@@ -214,6 +243,17 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 2877,
+    name: "LigerBots",
+    location: "West Newton, MA",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/ligerbots-2877-frc-openalliance-build-thread-2023/420435"
+      ),
+      Code("https://github.com/ligerbots/ChargedUp2023"),
+    ],
+  },
+  {
     number: 3161,
     name: "Tronic Titans",
     location: "Oakville, ON",
@@ -229,6 +269,20 @@ const allTeams: TeamInfo[] = [
     location: "Windham, NH",
     media: [
       CD("https://www.chiefdelphi.com/t/team-3467-2023-build-blog/417264"),
+    ],
+  },
+  {
+    number: 3926,
+    name: "MPArors",
+    location: "Saunt Paul, MN",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/team-3926-mparor-robotics-2023-open-alliance-thread/422393"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/b4ce2eefa49846c6dfac2e51/w/d102ea67771c5deb6fd79a5a/e/cea1cbbc56da02c089f3c649?renderMode=0&uiState=63bdf524acf5605ba574ac5e"
+      ),
+      Code("https://github.com/mparobotics/2023-Season"),
     ],
   },
   {
@@ -252,6 +306,20 @@ const allTeams: TeamInfo[] = [
     media: [
       CD("https://www.chiefdelphi.com/t/frc-4329-2023-build-thread/419733/"),
       Code("https://github.com/4329"),
+    ],
+  },
+  {
+    number: 4795,
+    name: "Eastbots",
+    location: "Chapel Hill, NC",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/4795-eastbots-2023-build-thread/419806"
+      ),
+      Code("https://github.com/Team-4795"),
+      CAD(
+        "https://cad.onshape.com/documents?column=modifiedAt&nodeId=2bcf9c3eab1e130449f5ca4f&resourceType=folder&sortOrder=desc"
+      ),
     ],
   },
   {
@@ -294,6 +362,20 @@ const allTeams: TeamInfo[] = [
     media: [
       CD("https://www.chiefdelphi.com/t/5987-galaxia-2023-build-thread/420543"),
       Code("https://github.com/Galaxia5987"),
+    ],
+  },
+  {
+    number: 6421,
+    name: "WarriorBots",
+    location: "Muskego, WI",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/6421-warriorbots-2023-build-thread-open-alliance-2023/420130"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/4be16f6ba455a61bd96f7845/w/bffd04c0cd52e71d6a01a952/e/9ab4e9123aa743f088d59ce2"
+      ),
+      Code("https://github.com/frc6421/2023-robot"),
     ],
   },
   {
