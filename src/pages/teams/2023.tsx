@@ -387,6 +387,17 @@ const allTeams: TeamInfo[] = [
       Code("https://github.com/X-SHARC"),
     ],
   },
+  {
+    number: 8574,
+    name: "Audeamus",
+    location: "North York, ON",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/8574-audeamus-2023-open-alliance-build-thread/422045"
+      ),
+      Code("https://github.com/roboticsmgci"),
+    ],
+  },
 ].sort((a, b) => a.number - b.number);
 
 const spotlightTeams: TeamInfo[] = allTeams.filter((t) =>
