@@ -188,6 +188,18 @@ const allTeams: TeamInfo[] = [
 
   //
   {
+    number: 118,
+    name: "Everybot",
+    location: "Houston, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/the-2023-robonauts-everybot-low-resource-build/421783"
+      ),
+      { url: "https://www.youtube.com/watch?v=def5QH7UUIU", name: "Video" },
+      { url: "https://www.118everybot.org/2023-resources", name: "Resources" },
+    ],
+  },
+  {
     number: 319,
     name: "Big Bad Bob",
     location: "Alton, NH",
