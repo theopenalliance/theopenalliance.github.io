@@ -98,6 +98,16 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 3749,
+    name: "Team Optix",
+    location: "San Diego, CA",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-3749-team-optix-2023-charged-up-oa-build-season-thread/423631"
+      ),
+    ],
+  },
+  {
     number: 3847,
     name: "Spectrum -△◅",
     location: "Houston, TX",
@@ -255,6 +265,9 @@ const allTeams: TeamInfo[] = [
         "https://www.chiefdelphi.com/t/nrg-948-2023-open-alliance-build-thread/422399"
       ),
       Code("https://github.com/NRG948"),
+      CAD(
+        "https://cad.onshape.com/documents/b2deded47ae2e34a62a675d6/w/4483ef0ec4ec611fe27f4a7d/e/5bcbe184c5278b91d33d8a91"
+      ),
     ],
   },
   {
@@ -266,6 +279,20 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 1466,
+    name: "Webb Robotics",
+    location: "Knoxville, TN",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-1466-webb-robotics-2023-build-thread/419830"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/b81f7de6d00338cbe75874a2/w/1037360d591643950d552af1/e/8338c7000d95bd68aa575bf4?renderMode=0&uiState=63ccaf3cda6feb72e309c275"
+      ),
+      Code("https://github.com/FRC1466"),
+    ],
+  },
+  {
     number: 1511,
     name: "Rolling Thunder",
     location: "Penfield, NY",
@@ -273,6 +300,17 @@ const allTeams: TeamInfo[] = [
       CD(
         "https://www.chiefdelphi.com/t/frc-1511-rolling-thunder-2023-build-thread/420846"
       ),
+    ],
+  },
+  {
+    number: 1672,
+    name: "Robo-T-Birds",
+    location: "Mahwah, NJ",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/1672-robo-t-birds-2023-build-thread/419228"
+      ),
+      Code("https://github.com/FRCTeam1672/2023-Robot"),
     ],
   },
   {
@@ -363,6 +401,16 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 2656,
+    name: "Quasics",
+    location: "Monroeville, PA",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/2656-quasics-2023-open-alliance-build-thread/420930"
+      ),
+    ],
+  },
+  {
     number: 2713,
     name: "Red Hawk Robotics",
     location: "Melrose, MA",
@@ -441,6 +489,16 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 3405,
+    name: "ALChemists",
+    location: "Salem, UT",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/3405-the-alchemists-2023-build-thread/422989"
+      ),
+    ],
+  },
+  {
     number: 3467,
     name: "Windham Windup",
     location: "Windham, NH",
@@ -507,6 +565,20 @@ const allTeams: TeamInfo[] = [
     media: [
       CD("https://www.chiefdelphi.com/t/frc-4329-2023-build-thread/419733/"),
       Code("https://github.com/4329"),
+    ],
+  },
+  {
+    number: 4458,
+    name: "Infernobotix",
+    location: "Center Moriches, NY",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/4458-infernobotix-2023-open-alliance-thread/419971"
+      ),
+      Code("https://github.com/frcteam4458"),
+      CAD(
+        "https://cad.onshape.com/documents/55408087d1960b18cc228f97/w/b77ce73de4e749f2f22dbf09/e/5937d2491493d30dbf5fa110?renderMode=0&uiState=63c2d08934300841e59e041e"
+      ),
     ],
   },
   {
@@ -645,12 +717,67 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 7125,
+    name: "Tigerbotics",
+    location: "Glen Rose, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-7125-tigerbotics-2023-build-thread/418430"
+      ),
+      Code("https://github.com/Tigerbotics7125/FRC2023"),
+      CAD(
+        "https://cad.onshape.com/documents/d8dba1e621fe70f5ca018089/w/7f3a18962610419c231b1b37/e/3ed6eb07778edc7db9784603?renderMode=0&uiState=63b1e4876eb2a76cc2bb1366"
+      ),
+    ],
+  },
+  {
+    number: 7312,
+    name: "T3",
+    location: "Tomball, TX",
+    media: [
+      CD("https://www.chiefdelphi.com/t/7312-t3-2023-build-thread/421426"),
+      CAD("https://github.com/t3team-laptop/T3-CAD"),
+    ],
+  },
+  {
+    number: 8725,
+    name: "MistyPanther",
+    location: "New Taipei, TW",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-8725-mistypanther-2023-build-thread/420195"
+      ),
+      Code("https://github.com/FRC8725/2023-Robot"),
+      CAD("https://grabcad.com/lin.powei-1"),
+    ],
+  },
+  {
     number: 8726,
     name: "CryptoHawks",
     location: "Ijamsville, MD",
     media: [
       CD(
         "https://www.chiefdelphi.com/t/frc-8726-cryptohawks-2022-2023-build-blog/420956"
+      ),
+    ],
+  },
+  {
+    number: 8728,
+    name: "Argonauts",
+    location: "Troy, MI",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-8728-argonauts-2023-open-alliance-build-thread/423652"
+      ),
+    ],
+  },
+  {
+    number: 8738,
+    name: "SLICE",
+    location: "Fuquay Varina, NC",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/8738-slice-2023-open-alliance-build-thread/419445"
       ),
     ],
   },
@@ -663,6 +790,16 @@ const allTeams: TeamInfo[] = [
         "https://www.chiefdelphi.com/t/8574-audeamus-2023-open-alliance-build-thread/422045"
       ),
       Code("https://github.com/roboticsmgci"),
+    ],
+  },
+  {
+    number: 9312,
+    name: "NERD Spark",
+    location: "Canton, MI",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-9312-nerd-spark-2023-build-thread/423118"
+      ),
     ],
   },
 ].sort((a, b) => a.number - b.number);
