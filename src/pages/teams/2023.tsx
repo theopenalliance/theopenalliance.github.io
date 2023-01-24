@@ -351,11 +351,13 @@ const allTeams: TeamInfo[] = [
   {
     number: 2357,
     name: "System Meltdown",
-    location: "Peculiar, MS",
+    location: "Peculiar, MO",
     media: [
       CD(
         "https://www.chiefdelphi.com/t/2357-system-meltdown-2023-open-alliance-build-thread/420831/"
       ),
+      Code("https://github.com/frc2357/FRC-2023"),
+      CAD("https://a360.co/3GwtNM4"),
     ],
   },
   {
