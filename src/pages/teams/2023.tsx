@@ -271,6 +271,19 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 1018,
+    name: "Pike RoboDevils",
+    location: "Indianapolis, IN",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-1018-pike-robodevils-2023-open-alliance-build-thread/423504"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/022fd7a0bb2eb2e4268d0e52/w/0c8c2de336933debc8e4451a/e/60f16f0e0a35e818cebb159a?renderMode=0&uiState=63cf6abf63f4196283759e85"
+      ),
+    ],
+  },
+  {
     number: 1418,
     name: "Vae Victis",
     location: "Falls Church, VA",
@@ -521,6 +534,16 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 3792,
+    name: "Army Ants",
+    location: "Columbia, MO",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/team-3792-the-army-ants-build-thread/423357"
+      ),
+    ],
+  },
+  {
     number: 3926,
     name: "MPArors",
     location: "Saunt Paul, MN",
@@ -568,6 +591,20 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 4392,
+    name: "The Deceivers",
+    location: "Brimley, MI",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/4392-the-deceivers-2023-open-alliance-build-thread/419180"
+      ),
+      Code("https://github.com/FRC4392"),
+      CAD(
+        "https://cad.onshape.com/documents/275a73987156633b267c9da5/w/8fe217cac21309c4508877b5/e/c6038dc63bc6f95a12e3ae6d"
+      ),
+    ],
+  },
+  {
     number: 4458,
     name: "Infernobotix",
     location: "Center Moriches, NY",
@@ -588,6 +625,16 @@ const allTeams: TeamInfo[] = [
     media: [
       CD(
         "https://www.chiefdelphi.com/t/4504-bc-robotics-2023-open-alliance-build-thread/419487"
+      ),
+    ],
+  },
+  {
+    number: 4587,
+    name: "Jersey Voltage 4587",
+    location: "Jersey Village, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/jersey-voltage-4587-build-thread-2022-2023/420389"
       ),
     ],
   },
@@ -664,6 +711,16 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 5553,
+    name: "Robo'Lyon",
+    location: "Neuville-sur-Saône, Rhône, France",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-5553-robolyon-2023-build-thread/420918"
+      ),
+    ],
+  },
+  {
     number: 5937,
     name: "MI-Robotics",
     location: "Mercer Island, WA",
@@ -714,6 +771,16 @@ const allTeams: TeamInfo[] = [
     media: [
       CD("https://www.chiefdelphi.com/t/x-sharc-6838-build-blog-2023/420915"),
       Code("https://github.com/X-SHARC"),
+    ],
+  },
+  {
+    number: 6925,
+    name: "W.A.Robotics",
+    location: "College Park, GA",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/6925-w-a-robotics-open-alliance-build-thread-2023/419347"
+      ),
     ],
   },
   {
