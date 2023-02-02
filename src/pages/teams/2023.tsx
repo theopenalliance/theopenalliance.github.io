@@ -670,7 +670,7 @@ const allTeams: TeamInfo[] = [
       ),
       Code("https://github.com/FRC-5013-Park-Hill-Robotics/2023-ChargedUp"),
       CAD(
-        "https://cad.onshape.com/documents/62b9c96d433a6e966282e5ca/w/9cb85d0bd88886c2afffa412/e/5ce86ec45a4ed91529a6ae21"
+        "https://cad.onshape.com/documents/62b9c96d433a6e966282e5ca/w/f5f78b512d0a5a0a63f0a8f6/e/74ccf445de4c54e65840d838"
       ),
       Photos(
         "https://drive.google.com/drive/folders/1zoV6nJ99F3mq9suKthLtooNE7yOdJUKV?usp=sharing"
