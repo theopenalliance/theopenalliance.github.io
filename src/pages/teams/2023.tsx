@@ -721,6 +721,17 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 5727,
+    name: "Omegabytes",
+    location: "Forest City, NC",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-5727-omegabytes-2023-build-thread/423232"
+      ),
+      Code("https://github.com/FRC5727"),
+    ],
+  },
+  {
     number: 5937,
     name: "MI-Robotics",
     location: "Mercer Island, WA",
