@@ -233,6 +233,20 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 555,
+    name: "Montclair Robotics",
+    location: "Montclair, NJ",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/555-montclair-robotics-2023-build-thread/420906"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/8beb0d7b45dfe7f03500bcc2/w/6bf0cf3ee6dd94754d3a9cbb/e/7d2a2797ed5cc87baf534262?renderMode=0&uiState=63ba30d8a3c2e564ff2881e5"
+      ),
+      Code("https://github.com/MontclairRobotics/ChargedUp"),
+    ],
+  },
+  {
     number: 599,
     name: "The Robodox",
     location: "Granada Hills, CA",
@@ -402,6 +416,18 @@ const allTeams: TeamInfo[] = [
       ),
     ],
   },
+
+  {
+    number: 2587,
+    name: "DiscoBots",
+    location: "Houston, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/discobots-2587-build-thread-2023/420953"
+      ),
+      Code("https://github.com/discobots2587/2023-recharge"),
+    ],
+  },
   {
     number: 2643,
     name: "Dark Matter",
@@ -530,6 +556,19 @@ const allTeams: TeamInfo[] = [
       Code("https://github.com/Spartiates-3544"),
       CAD(
         "https://cad.onshape.com/documents/9dbcc665debcee4e3542cef6/w/1b49d9e6c8d0941a183fb366/e/45281f9c8fa2dd3e94a87536"
+      ),
+    ],
+  },
+  {
+    number: 3588,
+    name: "The Talon",
+    location: "Renton, WA",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/3588-the-talon-2023-build-thread/422826"
+      ),
+      CAD(
+        "https://cad.onshape.com/documents/72be3d6b28d534d01b64726f/w/dc2f23b24aea2e98e51e2fe8/e/d0c7a5c45cde59774877ccc1?renderMode=0&uiState=63d1f231222d835b7da085bd"
       ),
     ],
   },
@@ -691,6 +730,16 @@ const allTeams: TeamInfo[] = [
     ],
   },
   {
+    number: 5123,
+    name: "Mechadogs",
+    location: "Yonkers, NY",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/5123-mechadogs-2023-build-thread/424768"
+      ),
+    ],
+  },
+  {
     number: 5414,
     name: "Pearadox",
     location: "Pearland, TX",
@@ -708,6 +757,17 @@ const allTeams: TeamInfo[] = [
       CD(
         "https://www.chiefdelphi.com/t/5417-eagle-robotics-build-blog-open-alliance-2023/419396"
       ),
+    ],
+  },
+  {
+    number: 5431,
+    name: "Titan Robotics",
+    location: "Plano, TX",
+    media: [
+      CD(
+        "https://www.chiefdelphi.com/t/frc-5431-titan-robotics-open-alliance-thread-2023/422334"
+      ),
+      Code("https://github.com/frc5431/RobotCode2023"),
     ],
   },
   {
