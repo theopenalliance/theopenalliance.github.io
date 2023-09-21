@@ -8,7 +8,7 @@ export default function Join(props: {}): JSX.Element {
   return (
     <Layout>
       <Helmet>
-        <title>2022 Teams | The Open Alliance</title>
+        <title>Join | The Open Alliance</title>
       </Helmet>
 
       <Container>
