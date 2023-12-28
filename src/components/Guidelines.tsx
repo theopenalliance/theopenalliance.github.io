@@ -12,6 +12,9 @@ export default function Guidelines(): JSX.Element {
 
   return (
     <>
+      <h1 className="text-3xl font-extrabold sm:text-5xl font-display py-4">
+        Guidelines
+      </h1>
       {guidelines.map((gl, idx) => (
         <div>
           {idx + 1}. {gl}
