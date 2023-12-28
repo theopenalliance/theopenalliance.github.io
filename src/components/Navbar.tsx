@@ -42,6 +42,9 @@ export default function Navbar_(): JSX.Element {
             <Nav.Link href="/teams/2023" className="link-light">
               2023 Teams
             </Nav.Link>
+            <Nav.Link href="/teams/2024" className="link-light">
+              2024 Teams
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

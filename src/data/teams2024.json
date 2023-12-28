@@ -1,0 +1,899 @@
+[
+  {
+    "number": 111,
+    "name": "WildStang",
+    "location": "Arlington Heights, Illinois, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/wildstang-robotics-program-team-111-and-112-build-blog-2024/446622",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/3cfac28b1069c1daf6853747/w/4d63e656fbb8201161b14795/e/1373e5321b05597e914143b2",
+        "name": "CAD"
+      }
+    ]
+  },
+  {
+    "number": 112,
+    "name": "Plus One",
+    "location": "Arlington Heights, Illinois, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/wildstang-robotics-program-team-111-and-112-build-blog-2024/446622",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/1d707fc04df5e84b269d72e4/w/a90ad6fcdf4f4f48bbd8315d/e/7a1a64b8cb079f2ea3f345a6",
+        "name": "CAD"
+      }
+    ]
+  },
+  {
+    "number": 342,
+    "name": "The Burning Magnetos",
+    "location": "North Charleston, South Carolina, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/342-the-burning-magnetos-2024-open-alliance-thread/444550",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 599,
+    "name": "The Robodox",
+    "location": "Granada Hills, California, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/599-the-robodox-build-thread-2024/443429",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://robodox.smugmug.com/",
+        "name": "Photos"
+      },
+      {
+        "url": "https://robodox.smugmug.com/",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 900,
+    "name": "The Zebracorns",
+    "location": "Durham, North Carolina, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/the-zebracorns-behind-the-stripes-design-code-and-build-blog-2023-2024/",
+        "name": "Build Thread"
+      },
+      {
+        "url": "http://github.com/frc900",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/@FIRSTZebracorn",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 991,
+    "name": "Broncobotics",
+    "location": "Phoenix, Arizona, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/991-broncobotics-2024-build-thread-open-alliance/444979",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 1102,
+    "name": "M'Aiken Magic",
+    "location": "Aiken, South Carolina, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-1102-maiken-magic-2024-build-thread-open-alliance/443128",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/MAikenMagic1102",
+        "name": "Code"
+      },
+      {
+        "url": "https://instagram.com/maikenmagic",
+        "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/@MAikenMagicFRCTeam",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 1155,
+    "name": "SciBorgs",
+    "location": "Bronx, New York, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-1155-the-sciborgs-2024-build-thread-open-alliance/441531",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/SciBorgs",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 1294,
+    "name": "Pack of Parts",
+    "location": "Sammamish, Washington, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-1294-pack-of-parts-2024-build-thread-open-alliance-2024/441658",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 1339,
+    "name": "Angelbotics",
+    "location": "Denver, Colorado, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/1339-open-alliance-open-content-for-the-2024-game/440346",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents?nodeId=93df25d0ae1e2c3c3f00cf3d&resourceType=folder",
+        "name": "CAD"
+      }
+    ]
+  },
+  {
+    "number": 1540,
+    "name": "Flaming Chickens",
+    "location": "Portland, Oregon, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/team-1540-flaming-chickens-2024-build-thread/443569",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/flamingchickens1540",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 1699,
+    "name": "Robocats",
+    "location": "Colchester, Connecticut, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-1699-robocats-2024-build-thread-open-alliance/446815",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/FIRST-Team-1699",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCSCy6XNVIFErb4Gsc-0UIsw",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 1792,
+    "name": "Round Table Robotics",
+    "location": "Oak Creek, Wisconsin, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-1792-round-table-robotics-2024-build-thread-open-alliance/444623",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 2582,
+    "name": "PantherBots",
+    "location": "Lufkin, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/2582-pantherbots-build-blog-open-alliance-2024/443543",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/a298aa03e45ed9212c189793/w/e95a5f4fa14e2a9c0c823956/e/c2d661b7f5fa8bb351c8860c?renderMode=0&uiState=6542f24a115608246bffaefa",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/LHSPantherbots",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 2656,
+    "name": "Quasics",
+    "location": "Monroeville, Pennsylvania, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/2656-quasics-2024-build-thread-open-alliance/442607",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/quasics/quasics-frc-sw-2015/wiki",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 2846,
+    "name": "FireBears",
+    "location": "Roseville, Minnesota, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-2846-firebears-2024-build-thread-open-alliance/446950",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/a41f7880f6b71b225c7c47f0/w/a2caec1006c2ddcc1aa44a83/e/901fc9c696f9fdd5e00a77e5",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/firebears-frc/FB2024",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 2869,
+    "name": "Regal Eagles",
+    "location": "Bethpage, New York, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/regal-eagles-2869-2024-build-blog-open-alliance/440741",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/orgs/FRC2869/repositories",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 2877,
+    "name": "The LigerBots",
+    "location": "Auburndale, Massachusetts, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/ligerbots-2877-open-alliance-build-thread-2024/445564",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://www.flickr.com/photos/ligerbots/",
+        "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/c/ligerbots",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 2996,
+    "name": "Cougars Gone Wired",
+    "location": "Colorado Springs, Colorado, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-2996-cougars-gone-wired-2024-build-thread-open-alliance/440496",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/07d4cc55e2898257b034f0a6/w/f765693f27059b00730e8b6f/e/1dd9c1d97b9b1f8ecb5f3cda?renderMode=0&uiState=6587323d28d9942be74462a2",
+        "name": "CAD"
+      },
+      {
+        "url": "https://gitlab.com/cougars-gone-wired/2024-crescendo",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 3181,
+    "name": "Pittsford Panthers",
+    "location": "Pittsford, New York, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-3181-pittsford-robotics-2024-build-thread/443678",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/pittsfordrobotics",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/@PittsfordRobotics3181",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 3481,
+    "name": "Bronc Botz",
+    "location": "San Antonio, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-3481-2024-build-thread-open-alliance/441981",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/BroncBotz3481/FRC2024",
+        "name": "Code"
+      },
+      {
+        "url": "https://broncbotz.smugmug.com/FRC-2024-Crescendo",
+        "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/user/BHSBroncBotz",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 3735,
+    "name": "VorTX",
+    "location": "Spring, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-team-3735-vortx-2024-build-thread-open-alliance/442383?u=lewislongbottom",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/8d89565820455e63a18491d4/w/610ee48d22be46a4902dabb2/e/934747479de237643943d414?renderMode=0&uiState=6528943578df916591d8a18d",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/Vortx3735",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.instagram.com/vortx3735/?hl=en",
+        "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCxOHt6h_aFeYcS7nnuXV1mw",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 3847,
+    "name": "Spectrum -\u25b3\u25c5",
+    "location": "Houston, Texas, USA",
+    "media": [
+      {
+        "url": "https://blog.spectrum3847.org",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://2024cad.spectrum3847.org",
+        "name": "CAD"
+      },
+      {
+        "url": "https://2024code.spectrum3847.org",
+        "name": "Code"
+      },
+      {
+        "url": "https://photos.spectrum3847.org",
+        "name": "Photos"
+      }
+    ]
+  },
+  {
+    "number": 4118,
+    "name": "Roaring Riptide",
+    "location": "Gainesville, Florida, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-team-4118-roaring-riptide-2024-build-thread-open-alliance/443643",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/FRC-Riptide-4118",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/@FRCRiptide",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 4272,
+    "name": "Maverick Robotics ",
+    "location": "Lafayette, Indiana, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-4272-maverick-robotics-2024-build-thread/446149",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/57c035edd4bbacab38fe9519/w/6008ad65869098ff59f8d4f7/e/fcccb838cf64afbc93fe9012",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/maverick-boiler-robotics-team-4272",
+        "name": "Code"
+      },
+      {
+        "url": "https://youtube.com/@FIRSTTeamMaverickRobotics?si=kRmTS3JaMH8FZW7O",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 4276,
+    "name": "Surf City Vikings",
+    "location": "Huntington Beach, California, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/4276-the-surf-city-vikings-2024-build-blog-open-alliance/442739",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/team4276",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.instagram.com/frc4276/",
+        "name": "Photos"
+      }
+    ]
+  },
+  {
+    "number": 4481,
+    "name": "Team Rembrandts",
+    "location": "Eindhoven, Noord-Brabant, Netherlands",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-4481-team-rembrandts-2024-build-thread-open-alliance/441907",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://grabcad.com/team.rembrandts.4481-1",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/FRC-4481-Team-Rembrandts",
+        "name": "Code"
+      },
+      {
+        "url": "https://youtube.com/playlist?list=PLG3YxINAL_ELeEdwnVyd86oY8FrRzOfHP&si=YNuMIK1N53dA9sP1",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 4504,
+    "name": "BC Robotics",
+    "location": "Maryville, Tennessee, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/4504-bc-robotics-2024-build-thread-open-alliance/445874",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/BC-Robotics-4504/2024-Season",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 4522,
+    "name": "Team SCREAM",
+    "location": "Sedalia, Missouri, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/team-scream-open-alliance-team-4522-and-4766-build-thread-2024/442547",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 4573,
+    "name": "Rambotics",
+    "location": "South River, New Jersey, USA",
+    "media": [
+      {
+        "url": "https://www.google.com/url?q=https%3A%2F%2Fwww.chiefdelphi.com%2Ft%2F4573-rambotics-2024-build-thread-open-alliance%2F441905%2F2&sa=D&sntz=1&usg=AOvVaw2IHCCQ-8Olzmu0wxYRj5Dy",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 4639,
+    "name": "The Robospartans",
+    "location": "Katy, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-4639-the-robospartans-2024-build-thread-open-alliance/444907?u=4639member",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 4788,
+    "name": "Can't Control ",
+    "location": "Perth, Western Australia, Australia",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/cant-control-4788-build-blog-2024/442349?u=hazzer",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/CurtinFRC/2024-Crescendo",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/@CurtinFRC4788CantControl",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 4828,
+    "name": "RoboEagles",
+    "location": "Raleigh, North Carolina, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-4828-roboeagles-2024-build-thread-open-alliance/441753",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/5f509c0eb99a21f4f3b5c307/w/5a24af5198ae222a44753e9a/e/8b59b01449f53b70d8bf81b6?renderMode=0&uiState=658c9a51d4f6f843871ad36f",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/RoboEagles4828/roboeagles2024",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 5013,
+    "name": "Trobots ",
+    "location": "Kansas City, Missouri, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/5013-trobots-2024-build-thread-open-alliance/442526",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/FRC-5013-Park-Hill-Robotics",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 5119,
+    "name": "Team STEAM",
+    "location": "Lawrence, Kansas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/5119-team-steam-2024-open-alliance-build-thread/442086?u=singtothehippos",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 5431,
+    "name": "Titan Robotics",
+    "location": "Plano, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-5431-titan-robotics-open-alliance-thread-2023/422334",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/40ffd4183b278ef2ba8d0d5a/w/8ccc86edcd3cb05f626aecb7/e/df994825e5521df31645f764",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/frc5431",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCCItxf-ebmkhl8T0g7U7k8Q",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 5459,
+    "name": "Ipswich TIGERS",
+    "location": "Ipswich, Massachusetts, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/ipswich-tigers-5459-2024-build-thread-open-alliance/442730",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 5553,
+    "name": "Robo\u2019Lyon",
+    "location": "Neuville-sur-Sa\u00f4ne, Rh\u00f4ne, France",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/5553-robolyon-2024-build-thread/446875",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 5727,
+    "name": "The Omegabytes",
+    "location": "Forest City, North Carolina, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/the-omegabytes-2024-open-alliance-thread/442911",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/0eef4eb2229c5cade86dfe1b/w/6c15777d7e3e87e8ca3036c0/e/79f9f2eab0b3ded1b6e65cbc",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/FRC5727",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 5987,
+    "name": "Galaxia in memory of David Zohar",
+    "location": "Haifa, Haifa, Israel",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-5987-galaxia-2024-build-thread-open-alliance/445851?u=arimb",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/Galaxia5987",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 6171,
+    "name": "Chain Reaction Robotics",
+    "location": "Plano, Texas, USA",
+    "media": []
+  },
+  {
+    "number": 6421,
+    "name": "WarriorBots",
+    "location": "Muskego, Wisconsin, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/6421-warriorbots-2024-build-thread-open-alliance/446521",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/61b3ef49301a92d27eb99a8c/w/05ed559182806cbd0433d6ee/e/2193f1e464c2428ff06fbcec",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/frc6421/2024-robot",
+        "name": "Code"
+      },
+      {
+        "url": "https://drive.google.com/drive/folders/1igPBfVjlxLcCI4d47U1Y_Z1ocOBmIteg",
+        "name": "Photos"
+      }
+    ]
+  },
+  {
+    "number": 6643,
+    "name": "Walden Robotics ",
+    "location": "Racine, Wisconsin, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/446098",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/Team6643/2024-robot",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 6908,
+    "name": "Infuzed",
+    "location": "Cary, North Carolina, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/6908-infuzed-2024-build-thread-open-alliance/442287",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/frc6908",
+        "name": "Code"
+      },
+      {
+        "url": "https://drive.google.com/drive/folders/13vmYhrbHjR7dI3xogmgRDeZeu9mcFAxR?usp=sharing",
+        "name": "Photos"
+      }
+    ]
+  },
+  {
+    "number": 6925,
+    "name": "WA Robotics",
+    "location": "College Park, Georgia, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-team-6925-woodward-academy-robotics-2024-build-thread-open-alliance/443629",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 7407,
+    "name": "Wired Boars",
+    "location": "Wallingford, Connecticut, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-7407-wired-boars-2024-build-thread-open-alliance/442003",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/Choate-Robotics",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 7421,
+    "name": "Overture",
+    "location": "Monterrey, Nuevo Le\u00f3n, Mexico",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/overture-7421-build-blog-2024-open-alliance/446286",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/7713014d9581fd5ca14c0274/w/367b9afcf469d7b155e49540/e/0bb998828847636219fa081d",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/Overture-7421/RobotCode2024",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 7525,
+    "name": "The Pioneers",
+    "location": "Nashville, Tennessee, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/7525-the-pioneers-2024-build-thread-open-alliance/442615",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 8088,
+    "name": "Bionic Panthers",
+    "location": "Liberty Hill, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-8088-bionic-panthers-2024-build-thread-open-alliance/446779",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/liberty-hill-high-school-robotics",
+        "name": "Code"
+      },
+      {
+        "url": "https://youtube.com/@BionicPanthers",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 8177,
+    "name": "Vector",
+    "location": "Tomball, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/vector-8177-build-thread-open-alliance-2024/446842?u=connor-8177",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/c59eba62f3539e110f41846b/w/d12d9680394924b761171bed/e/d4229c0767dff5e38d4ee7f5?renderMode=0&uiState=658609c450efe556720da3e8",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/Vector8177",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/@Vector8177",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 8738,
+    "name": "Slice",
+    "location": "Fuquay Varina, North Carolina, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/8738-slice-2024-open-alliance-build-thread/443213?u=flightpath24",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 9020,
+    "name": "Galatasaray Robotics",
+    "location": "Beyo\u011flu, Istanbul, T\u00fcrkiye",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/galatasaray-robotics-9020-2023-2024-open-alliance-build-thread/441576",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 9496,
+    "name": "Lynk",
+    "location": "Forest City, North Carolina, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-9496-lynk-2024-build-thread-open-alliance/441524?u=jimmyy",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/LynkRobotics",
+        "name": "Code"
+      },
+      {
+        "url": "https://youtube.com/@LynkFRC",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 9586,
+    "name": "Anglebotics",
+    "location": "Denver, Colorado, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-9586-anglebotics-2024-build-thread",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://anglebotics.org/github",
+        "name": "CAD"
+      },
+      {
+        "url": "https://anglebotics.org/onshape",
+        "name": "Code"
+      },
+      {
+        "url": "https://anglebotics.org/youtube",
+        "name": "Videos"
+      }
+    ]
+  }
+]
