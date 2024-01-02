@@ -16,8 +16,10 @@ def maybe_add_url(arr, url, tooltip):
 
 
 with open("oa.tsv", "r") as f:
-    out = []
+    numbers = []
     warnings = []
+
+    data = {}
 
     for line in tqdm(list(f.readlines()[1:])):
         _, number, name, _, *maybe_urls = line.split("\t")
@@ -37,16 +39,23 @@ with open("oa.tsv", "r") as f:
 
         tba_info = tba.team(team=f"frc{number}")
 
-        out.append(
-            {
-                "number": int(number),
-                "name": name,
-                "location": f'{tba_info["city"]}, {tba_info["state_prov"]}, {tba_info["country"]}',
-                "media": urls,
-            }
-        )
+        data[int(number)] = {
+            "number": int(number),
+            "name": name,
+            "location": f'{tba_info["city"]}, {tba_info["state_prov"]}, {tba_info["country"]}',
+            "media": urls,
+        }
 
-out.sort(key=lambda d: d["number"])
+        numbers.append(int(number))
+
+# removes duplicates and keeps the latest form submission
+numbers.sort()
+seen = set()
+out = []
+for o in numbers:
+    if o not in seen:
+        out.append(data[o])
+        seen.add(o)
 
 print(f"Review other URLs for {warnings}")
 

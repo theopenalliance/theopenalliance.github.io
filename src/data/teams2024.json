@@ -144,17 +144,6 @@
   },
   {
     "number": 1102,
-    "name": "M\u2019Aiken Magic",
-    "location": "Aiken, South Carolina, USA",
-    "media": [
-      {
-        "url": "https://www.chiefdelphi.com/t/frc-1102-maiken-magic-2024-build-thread-open-alliance/443128",
-        "name": "Build Thread"
-      }
-    ]
-  },
-  {
-    "number": 1102,
     "name": "M'Aiken Magic",
     "location": "Aiken, South Carolina, USA",
     "media": [
@@ -1012,25 +1001,6 @@
         "name": "Build Thread"
       },
       {
-        "url": "https://cad.onshape.com/documents/7713014d9581fd5ca14c0274/w/367b9afcf469d7b155e49540/e/0bb998828847636219fa081d",
-        "name": "CAD"
-      },
-      {
-        "url": "https://github.com/Overture-7421/RobotCode2024",
-        "name": "Code"
-      }
-    ]
-  },
-  {
-    "number": 7421,
-    "name": "Overture",
-    "location": "Monterrey, Nuevo Le\u00f3n, Mexico",
-    "media": [
-      {
-        "url": "https://www.chiefdelphi.com/t/overture-7421-build-blog-2024-open-alliance/446286",
-        "name": "Build Thread"
-      },
-      {
         "url": "https://cad.onshape.com/documents/7713014d9581fd5ca14c0274/w/367b9afcf469d7b155e49540/e/0bb998828847636219fa081d?renderMode=0&uiState=65684f66b830fc25523287f6",
         "name": "CAD"
       },
@@ -1111,17 +1081,6 @@
     "media": [
       {
         "url": "https://www.chiefdelphi.com/t/8738-slice-2024-open-alliance-build-thread/443213?u=flightpath24",
-        "name": "Build Thread"
-      }
-    ]
-  },
-  {
-    "number": 9020,
-    "name": "Galatasaray Robotics",
-    "location": "Beyo\u011flu, Istanbul, T\u00fcrkiye",
-    "media": [
-      {
-        "url": "https://www.chiefdelphi.com/t/galatasaray-robotics-9020-2023-2024-open-alliance-build-thread/441576",
         "name": "Build Thread"
       }
     ]
