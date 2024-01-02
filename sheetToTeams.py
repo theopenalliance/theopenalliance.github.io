@@ -42,7 +42,7 @@ with open("oa.tsv", "r") as f:
                 "number": int(number),
                 "name": name,
                 "location": f'{tba_info["city"]}, {tba_info["state_prov"]}, {tba_info["country"]}',
-                "urls": urls,
+                "media": urls,
             }
         )
 
