@@ -454,7 +454,7 @@ export default function Teams2022(): JSX.Element {
       </Helmet>
 
       <FeaturedTeamInfos teamInfo={spotlightTeams} year={2022} />
-      <TeamInfoTable teamInfo={allTeams} />
+      <TeamInfoTable teamInfo={allTeams} year={2022} />
     </Layout>
   );
 }

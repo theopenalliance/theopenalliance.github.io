@@ -948,7 +948,7 @@ export default function Teams2023(): JSX.Element {
       </Helmet>
 
       <FeaturedTeamInfos teamInfo={spotlightTeams} year={2023} />
-      <TeamInfoTable teamInfo={allTeams} />
+      <TeamInfoTable teamInfo={allTeams} year={2023} />
     </Layout>
   );
 }

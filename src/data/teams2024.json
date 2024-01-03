@@ -98,6 +98,17 @@
     ]
   },
   {
+    "number": 948,
+    "name": "NRG (Newport Robotics Group)",
+    "location": "Bellevue, Washington, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/nrg-948-2023-2024-open-alliance-thread/443508",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
     "number": 991,
     "name": "Broncobotics",
     "location": "Phoenix, Arizona, USA",
@@ -218,6 +229,29 @@
       {
         "url": "https://github.com/frc1418",
         "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 1466,
+    "name": "Webb Robotics",
+    "location": "Knoxville, Tennessee, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-1466-webb-robotics-2024-build-thread/446029",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/cb5a0430dc81e6ef948e969a/w/144b474944160f03812fef56/e/59191ae8df8bdefa2e666561?renderMode=0&uiState=6586fbc843790f77f7a11143",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/FRC1466",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/@webb1466",
+        "name": "Videos"
       }
     ]
   },
@@ -422,6 +456,25 @@
     ]
   },
   {
+    "number": 3161,
+    "name": "Tronic Titans",
+    "location": "Oakville, Ontario, Canada",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/tronic-titans-3161-build-thread-open-alliance-2024/447265",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://www.flickr.com/photos/htrobotics/",
+        "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCI7JLXqHLQCishaC2rWj0SQ",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
     "number": 3181,
     "name": "Pittsford Panthers",
     "location": "Pittsford, New York, USA",
@@ -437,6 +490,25 @@
       {
         "url": "https://www.youtube.com/@PittsfordRobotics3181",
         "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 3467,
+    "name": "Windham Windup",
+    "location": "Windham, New Hampshire, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/team-3467-2024-build-blog/445350",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/2fc7c67cf0caa47d6fd88b44/w/50f8171b9e5f18a6a9f1f1d8/e/bc85563405848dc625f6a416?renderMode=0&uiState=659428364c84e33f26e6df12",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/WHS-FRC-3467",
+        "name": "Code"
       }
     ]
   },
@@ -1104,6 +1176,33 @@
       },
       {
         "url": "https://www.youtube.com/@GalatasarayRobotics",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 9312,
+    "name": "NERD Spark",
+    "location": "Albion, Michigan, USA",
+    "media": [
+      {
+        "url": "https://www.nerdspark.org/repositories/mechanical",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://www.nerdspark.org/repositories/mechanical",
+        "name": "CAD"
+      },
+      {
+        "url": "https://www.nerdspark.org/repositories/programming",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.instagram.com/nerd_spark9312/",
+        "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/@nerdspark",
         "name": "Videos"
       }
     ]

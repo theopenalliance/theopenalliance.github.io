@@ -13,7 +13,9 @@ import teamData from "../../data/teams2024.json";
 const allTeams: TeamInfo[] = teamData;
 
 const spotlightTeams: TeamInfo[] = allTeams.filter((t) =>
-  [0].includes(t.number)
+  [
+    95, 111, 112, 2996, 3467, 3512, 3847, 4481, 6328, 6838, 7407, 7461, 8177,
+  ].includes(t.number)
 );
 
 export default function Teams2024(): JSX.Element {
@@ -24,7 +26,7 @@ export default function Teams2024(): JSX.Element {
       </Helmet>
 
       <FeaturedTeamInfos teamInfo={spotlightTeams} year={2024} />
-      <TeamInfoTable teamInfo={allTeams} />
+      <TeamInfoTable teamInfo={allTeams} year={2024} />
     </Layout>
   );
 }
