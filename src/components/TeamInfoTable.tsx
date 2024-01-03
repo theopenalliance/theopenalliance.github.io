@@ -18,7 +18,7 @@ export default function TeamInfoTable(props: {
 }): JSX.Element {
   return (
     <>
-      <div className="max-w-xl">
+      <div className="max-w-screen-2xl">
         <h2 className="text-3xl font-bold sm:text-4xl font-display">
           {props.year} Team Directory
         </h2>
@@ -26,10 +26,22 @@ export default function TeamInfoTable(props: {
         <p className="mt-1 text-gray-600">
           Below is a list of the {props.teamInfo.length} teams participating in
           The Open Alliance in {props.year}.
+          {props.year === 2024 && (
+            <>
+              {" "}
+              To be listed below, please submit the website directory form:{" "}
+              <a
+                className="text-blue-500"
+                href="https://forms.gle/B5TKnStRKsnyoGkD8"
+              >
+                https://forms.gle/B5TKnStRKsnyoGkD8
+              </a>
+            </>
+          )}
         </p>
       </div>
 
-      <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+      <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-4">
         <table className="w-full text-sm text-left rtl:text-right text-gray-500">
           <thead className="text-xs text-gray-700 uppercase bg-gray-50">
             <tr>
@@ -89,16 +101,14 @@ export function FeaturedTeamInfos(props: {
   return (
     <section>
       <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-        <div className="max-w-xl">
-          <h2 className="text-3xl font-bold sm:text-4xl font-display">
-            {props.year} Featured Teams
-          </h2>
+        <h2 className="text-3xl font-bold sm:text-4xl font-display">
+          {props.year} Featured Teams
+        </h2>
 
-          <p className="mt-1 text-gray-600">
-            Featured teams showcase some of the top examples of the mission and
-            guidelines of The Open Alliance.
-          </p>
-        </div>
+        <p className="mt-1 text-gray-600">
+          Featured teams showcase some of the top examples of the mission and
+          guidelines of The Open Alliance.
+        </p>
 
         <div className="mt-4 grid grid-cols-1 gap-4 md:mt-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
           {props.teamInfo.map((t) => (
