@@ -14,9 +14,9 @@ export default function Navbar_(): JSX.Element {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link href="/join" className="text-white">
+        {/* <Navbar.Link href="/join" className="text-white">
           Join
-        </Navbar.Link>
+        </Navbar.Link> */}
         <Navbar.Link href="/teams/2024" className="text-white">
           2024 Teams
         </Navbar.Link>

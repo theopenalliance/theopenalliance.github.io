@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import logo from "../../images/logo/darkbg.png";
 
 import { Helmet } from "react-helmet";
 
