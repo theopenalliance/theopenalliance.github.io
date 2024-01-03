@@ -16,6 +16,11 @@ export default function Join(props: {}): JSX.Element {
         Joining The Open Alliance
       </h1>
       <p>
+        Thank you for your interest in having your team be part of The Open
+        Alliance. Registration for the 2024 season is currently closed.
+        Registration for the 2025 season will open in the fall of 2024.
+      </p>
+      {/* <p>
         We encourage your team to register to be officially recognized as an
         Open Alliance team. Post content utilizing #openalliance and register
         via the following form:
@@ -24,7 +29,7 @@ export default function Join(props: {}): JSX.Element {
         <a href="https://forms.gle/JkJqjR3oL8oG6m1r8" className="text-blue-500">
           https://forms.gle/JkJqjR3oL8oG6m1r8
         </a>
-      </p>
+      </p> */}
       <p>
         <Guidelines />
       </p>

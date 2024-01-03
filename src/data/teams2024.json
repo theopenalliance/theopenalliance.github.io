@@ -30,6 +30,29 @@
     ]
   },
   {
+    "number": 340,
+    "name": "Greater Rochester Robotics",
+    "location": "Churchville, New York, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-team-340-greater-rochester-robotics-2024-build-thread-open-alliance/443107/3",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/Greater-Rochester-Robotics/GRRBase",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.instagram.com/grr340?igsh=MnlpNmRlNHV2MWdu&utm_source=qr",
+        "name": "Photos"
+      },
+      {
+        "url": "https://youtube.com/@firstteam3407?si=Kwf1_Y21Hr4m-m_q",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
     "number": 342,
     "name": "The Burning Magnetos",
     "location": "North Charleston, South Carolina, USA",
@@ -456,6 +479,17 @@
     ]
   },
   {
+    "number": 3082,
+    "name": "Chicken Bot Pie",
+    "location": "Minnetonka, Minnesota, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-3082-chicken-bot-pie-2024-build-thread-open-alliance/445300?",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
     "number": 3161,
     "name": "Tronic Titans",
     "location": "Oakville, Ontario, Canada",
@@ -547,6 +581,17 @@
       {
         "url": "https://github.com/Spartiates-3544",
         "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 3636,
+    "name": "The Generals",
+    "location": "Portland, Oregon, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-team-3636-generals-robotics-2024-build-thread/442713",
+        "name": "Build Thread"
       }
     ]
   },
@@ -877,6 +922,21 @@
     ]
   },
   {
+    "number": 5417,
+    "name": "Eagle Robotics",
+    "location": "Allen, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/5417-eagle-robotics-build-blog-open-alliance-2024/447340",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://www.youtube.com/@ATeamRobotics",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
     "number": 5431,
     "name": "Titan Robotics",
     "location": "Plano, Texas, USA",
@@ -941,6 +1001,17 @@
     ]
   },
   {
+    "number": 5788,
+    "name": "Eagle Special Operations",
+    "location": "Allen, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/5788-eagle-special-operations-build-blog-open-alliance-2024/447343",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
     "number": 5987,
     "name": "Galaxia in memory of David Zohar",
     "location": "Haifa, Haifa, Israel",
@@ -960,6 +1031,29 @@
     "name": "Chain Reaction Robotics",
     "location": "Plano, Texas, USA",
     "media": []
+  },
+  {
+    "number": 6328,
+    "name": "Mechanical Advantage",
+    "location": "Littleton, Massachusetts, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-6328-mechanical-advantage-2024-build-thread/442736?u=davepowers",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/7c35c1fa63a6f3101a460578/w/1ebd54459aebecf8e5373569/e/6a1c80d9ec77d86a62e8c1ae",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/Mechanical-Advantage/RobotCode2024",
+        "name": "Code"
+      },
+      {
+        "url": "https://youtube.com/@LittletonRobotics?si=8-vz2-UPlaAArkby",
+        "name": "Videos"
+      }
+    ]
   },
   {
     "number": 6421,
