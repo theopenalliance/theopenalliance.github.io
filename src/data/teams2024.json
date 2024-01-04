@@ -313,6 +313,21 @@
     ]
   },
   {
+    "number": 1757,
+    "name": "Wolverines",
+    "location": "Westwood, Massachusetts, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-1757-wolverines-2023-2024-build-thread/442959?u=giant",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/1757WestwoodRobotics/2024-Crescendo",
+        "name": "Code"
+      }
+    ]
+  },
+  {
     "number": 1792,
     "name": "Round Table Robotics",
     "location": "Oak Creek, Wisconsin, USA",
@@ -524,6 +539,25 @@
       {
         "url": "https://www.youtube.com/@PittsfordRobotics3181",
         "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 3205,
+    "name": "The Patriots",
+    "location": "Concord, Massachusetts, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-3205-the-patriots-2024-build-thread-open-alliance/445915",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/CCHS-FIRST-Robotics",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.instagram.com/cchsrobotics3205/",
+        "name": "Photos"
       }
     ]
   },
