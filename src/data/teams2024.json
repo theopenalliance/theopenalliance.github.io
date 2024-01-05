@@ -133,12 +133,24 @@
   },
   {
     "number": 991,
-    "name": "Broncobotics",
+    "name": "BroncoBotics",
     "location": "Phoenix, Arizona, USA",
     "media": [
       {
-        "url": "https://www.chiefdelphi.com/t/991-broncobotics-2024-build-thread-open-alliance/444979",
+        "url": "https://link.broncobotics.org/2024-build-thread",
         "name": "Build Thread"
+      },
+      {
+        "url": "https://link.broncobotics.org/2024-CAD",
+        "name": "CAD"
+      },
+      {
+        "url": "https://link.broncobotics.org/2024-code",
+        "name": "Code"
+      },
+      {
+        "url": "https://link.broncobotics.org/photos",
+        "name": "Photos"
       }
     ]
   },
@@ -658,11 +670,11 @@
   },
   {
     "number": 3847,
-    "name": "Spectrum -\u25b3\u25c5",
+    "name": "Spectrum 3847",
     "location": "Houston, Texas, USA",
     "media": [
       {
-        "url": "https://blog.spectrum3847.org",
+        "url": "https://www.chiefdelphi.com/t/spectrum-3847-build-blog-2024/447471",
         "name": "Build Thread"
       },
       {
@@ -674,8 +686,12 @@
         "name": "Code"
       },
       {
-        "url": "https://photos.spectrum3847.org",
+        "url": "https://photos.spectrum3847.org/2024-FRC",
         "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/playlist?list=PLTocT0DivsNkkj9PQGIX2RrH9A8MSBaGl",
+        "name": "Videos"
       }
     ]
   },
@@ -926,6 +942,21 @@
       {
         "url": "https://github.com/RoboEagles4828/roboeagles2024",
         "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 4926,
+    "name": "GalacTech",
+    "location": "Columbus, Indiana, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/galactech-4926-build-blog-2024/444093",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://a360.co/3RtfQmA",
+        "name": "CAD"
       }
     ]
   },
@@ -1271,6 +1302,25 @@
       {
         "url": "https://www.chiefdelphi.com/t/8230-koibots-2024-build-thread-open-alliance/446977",
         "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 8626,
+    "name": "Cyber Sailors",
+    "location": "Scituate, Massachusetts, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-8626-cyber-sailors-2024-build-thread-open-alliance/445466",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/04d879d46f159b088a1fc4f7",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/team8626/team8626_2024",
+        "name": "Code"
       }
     ]
   },
