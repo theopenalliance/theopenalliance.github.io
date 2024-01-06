@@ -419,6 +419,29 @@
     ]
   },
   {
+    "number": 2587,
+    "name": "DiscoBots",
+    "location": "Houston, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/discobots-2587-build-blog-2024/446938",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/discobots2587",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.instagram.com/discobotz",
+        "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/lamardiscobots",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
     "number": 2656,
     "name": "Quasics",
     "location": "Monroeville, Pennsylvania, USA",
@@ -502,6 +525,29 @@
       {
         "url": "https://gitlab.com/cougars-gone-wired/2024-crescendo",
         "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 3061,
+    "name": "Huskie Robotics",
+    "location": "Naperville, Illinois, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-3061-huskie-robotics-2024-season-build-thread/447553",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/8a473118aa5dbbe6ac4c94e7/w/149c4500630ea6c7fc71b6e0/e/93d32ec0c12d832acf9f253d?renderMode=0&uiState=65977dbba48c097d04000315",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/HuskieRobotics/frc-software-2024",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/user/team3061",
+        "name": "Videos"
       }
     ]
   },
@@ -670,7 +716,7 @@
   },
   {
     "number": 3847,
-    "name": "Spectrum 3847",
+    "name": "Spectrum3847",
     "location": "Houston, Texas, USA",
     "media": [
       {
@@ -733,6 +779,21 @@
       },
       {
         "url": "https://www.youtube.com/@FRCRiptide",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 4121,
+    "name": "Viking Robotics",
+    "location": "North Canton, Ohio, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/4121-viking-robotics-2024-build-thread-open-alliance/447532",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UC-gmjmRqpLVbWAXwTU_2t7A",
         "name": "Videos"
       }
     ]
@@ -962,7 +1023,7 @@
   },
   {
     "number": 5013,
-    "name": "Trobots ",
+    "name": "Trobots",
     "location": "Kansas City, Missouri, USA",
     "media": [
       {
@@ -970,8 +1031,16 @@
         "name": "Build Thread"
       },
       {
+        "url": "https://cad.onshape.com/documents/873dc575387fdfc347483ad6/w/080207b04ab992e3bfc17df4/e/c37cce0029b24eae146f8504",
+        "name": "CAD"
+      },
+      {
         "url": "https://github.com/FRC-5013-Park-Hill-Robotics",
         "name": "Code"
+      },
+      {
+        "url": "https://drive.google.com/drive/folders/1CSBYiOuNfFW9h4we2BKMZst3RbAsARD2",
+        "name": "Photos"
       }
     ]
   },
@@ -1073,6 +1142,25 @@
       {
         "url": "https://www.chiefdelphi.com/t/5788-eagle-special-operations-build-blog-open-alliance-2024/447343",
         "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 5951,
+    "name": "Makers Assemble",
+    "location": "Tel Aviv, Tel-Aviv, Israel",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-5951-makers-assemble-2024-build-thread-open-alliance-2024/440234",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/MA5951",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/c/MakersAssemble5951/videos?app=desktop&view=0&sort=dd&shelf_id=1",
+        "name": "Videos"
       }
     ]
   },
@@ -1321,6 +1409,21 @@
       {
         "url": "https://github.com/team8626/team8626_2024",
         "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 8725,
+    "name": "MistyPanther",
+    "location": "Zhonghe Dist., New Taipei, Chinese Taipei",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-8725-mistypanther-2024-build-thread/442157",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCDnqDUfKrUdcqkpwK34f61w",
+        "name": "Videos"
       }
     ]
   },
