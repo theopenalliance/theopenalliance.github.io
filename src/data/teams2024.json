@@ -30,6 +30,17 @@
     ]
   },
   {
+    "number": 177,
+    "name": "Bobcat Robotics ",
+    "location": "South Windsor, Connecticut, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/team-177-bobcat-robotics-2024-build-blog/447633",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
     "number": 340,
     "name": "Greater Rochester Robotics",
     "location": "Churchville, New York, USA",
@@ -60,6 +71,25 @@
       {
         "url": "https://www.chiefdelphi.com/t/342-the-burning-magnetos-2024-open-alliance-thread/444550",
         "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 587,
+    "name": "The Hedgehogs",
+    "location": "Hillsborough, North Carolina, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-team-587-the-hedgehogs-2024-build-season-thread/442427",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/0ff54580033714c409ff00a0/w/1bc3f696902740f8553c42f3/e/38194658055e71f7ec65f8a8",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/Team-587",
+        "name": "Code"
       }
     ]
   },
@@ -370,6 +400,21 @@
     ]
   },
   {
+    "number": 2022,
+    "name": "Titan Robotics",
+    "location": "Aurora, Illinois, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/titan-robotics-team-2022-build-blog-2024-imsa/446988",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/titan2022/FRC-2024-JAVA",
+        "name": "Code"
+      }
+    ]
+  },
+  {
     "number": 2059,
     "name": "The Hitchhikers ",
     "location": "Apex, North Carolina, USA",
@@ -396,6 +441,17 @@
       {
         "url": "https://github.com/frc2357/FRC-2024",
         "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 2521,
+    "name": "SERT",
+    "location": "Eugene, Oregon, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/2521-sert-2024-open-alliance-build-thread/447639",
+        "name": "Build Thread"
       }
     ]
   },
@@ -1056,6 +1112,21 @@
     ]
   },
   {
+    "number": 5406,
+    "name": "Celt-X",
+    "location": "Hamilton, Ontario, Canada",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/celt-x-5406-2024-build-thread-open-alliance/447624",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://www.youtube.com/@CeltXRobotics",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
     "number": 5417,
     "name": "Eagle Robotics",
     "location": "Allen, Texas, USA",
@@ -1252,7 +1323,7 @@
     "location": "\u00c7EKMEK\u00d6Y, Istanbul, T\u00fcrkiye",
     "media": [
       {
-        "url": "https://www.chiefdelphi.com/t/6838-x-sharc-2023-2024-build-blog/441500",
+        "url": "https://www.chiefdelphi.com/t/x-sharc-6838-build-blog-2024/447670",
         "name": "Build Thread"
       },
       {
@@ -1260,7 +1331,7 @@
         "name": "Code"
       },
       {
-        "url": "https://www.youtube.com/@xsharc",
+        "url": "https://m.youtube.com/@xsharc",
         "name": "Videos"
       }
     ]
