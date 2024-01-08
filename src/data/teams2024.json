@@ -336,6 +336,25 @@
     ]
   },
   {
+    "number": 1675,
+    "name": "UPS (The Ultimate Protection Squad)",
+    "location": "Milwaukee, Wisconsin, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-1675-ups-2024-build-thread-open-alliance/444686",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/6ff9bc0674fd1ef12e3a75d3/w/612009e1bf5762a41e85f3b1/e/41b00e4105c7ed1aca36abad",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/frc1675",
+        "name": "Code"
+      }
+    ]
+  },
+  {
     "number": 1699,
     "name": "Robocats",
     "location": "Colchester, Connecticut, USA",
@@ -729,6 +748,21 @@
       {
         "url": "https://github.com/Spartiates-3544",
         "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 3588,
+    "name": "The Talon",
+    "location": "Renton, Washington, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/3588-the-talon-build-thread-open-alliance-2024/448244",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCzsfDJcqKRseT9NnyJkYyqA",
+        "name": "Videos"
       }
     ]
   },
@@ -1314,6 +1348,17 @@
       {
         "url": "https://github.com/Team6643/2024-robot",
         "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 6647,
+    "name": "VOLTEC Robotics",
+    "location": "MONTERREY, Nuevo Le\u00f3n, Mexico",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-6647-voltec-robotics-2024-build-thread-open-alliance/447300",
+        "name": "Build Thread"
       }
     ]
   },
