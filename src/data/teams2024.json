@@ -389,6 +389,33 @@
     ]
   },
   {
+    "number": 1787,
+    "name": "The Flying Circuits",
+    "location": "Pepper Pike, Ohio, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-1787-the-flying-circuits-2024-open-alliance-thread/442930",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/e6d7b50150275636203e85d2/w/2c58e6c3c9ceca078b4758ff/e/ebbab5a0b88145d6af183edb?renderMode=0&uiState=6527e587e21671140e3718e5",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/TheFlyingCircuits/2024-Robot",
+        "name": "Code"
+      },
+      {
+        "url": "https://drive.google.com/drive/folders/1qPvVZ7wQUdHnPIwRQ9wit2KlM30IZf9u?usp=sharing",
+        "name": "Photos"
+      },
+      {
+        "url": "https://drive.google.com/drive/folders/1qPvVZ7wQUdHnPIwRQ9wit2KlM30IZf9u?usp=sharing",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
     "number": 1792,
     "name": "Round Table Robotics",
     "location": "Oak Creek, Wisconsin, USA",
@@ -459,6 +486,21 @@
       },
       {
         "url": "https://github.com/frc2357/FRC-2024",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 2412,
+    "name": "The Robototes",
+    "location": "Bellevue, Washington, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-2412-robototes-2024-season-build-thread/448663",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/robototes/Crescendo2024/",
         "name": "Code"
       }
     ]
@@ -1412,6 +1454,21 @@
     ]
   },
   {
+    "number": 7125,
+    "name": "TigerBotics",
+    "location": "Glen Rose, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-7125-tigerbotics-2024-build-thread/448639?u=tigerbotics",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/Tigerbotics7125/FRC2024/tree/main",
+        "name": "Code"
+      }
+    ]
+  },
+  {
     "number": 7407,
     "name": "Wired Boars",
     "location": "Wallingford, Connecticut, USA",
@@ -1573,6 +1630,29 @@
       },
       {
         "url": "https://www.youtube.com/@GalatasarayRobotics",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 9047,
+    "name": "TechMaker Robotics",
+    "location": "Blumenau, Santa Catarina, Brazil",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-9047-techmaker-robotics-2024-build-thread-open-alliance/447199",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/4d9f2de7c0eff949230360fc/w/8ebbb82313338ddcf726cff6/e/2fbd2c0355381ef0f91ff9a1",
+        "name": "CAD"
+      },
+      {
+        "url": "https://photos.app.goo.gl/Ua9hMCQoUreWfFPr5",
+        "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/@TechMakerTeam",
         "name": "Videos"
       }
     ]

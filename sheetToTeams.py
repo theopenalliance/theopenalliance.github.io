@@ -22,7 +22,7 @@ with open("oa.tsv", "r") as f:
     data = {}
 
     for line in tqdm(list(f.readlines()[1:])):
-        _, number, name, _, *maybe_urls = line.split("\t")
+        _, _, number, name, *maybe_urls = line.split("\t")
         urls = []
 
         for idx, tooltip in [
