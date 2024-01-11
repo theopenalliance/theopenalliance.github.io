@@ -1,5 +1,28 @@
 [
   {
+    "number": 95,
+    "name": "The Grasshoppers",
+    "location": "White River Junction, Vermont, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-95-the-grasshoppers-2024-build-thread/442176",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/f46ce37811abb74c2758f7c0/w/83a535398edd5745c434f8fc/e/6a7da0047664270d513c2f2a",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/first95",
+        "name": "Code"
+      },
+      {
+        "url": "https://youtube.com/@frc95thegrasshoppers40?si=_ZGYepAWyq0x1ng2",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
     "number": 111,
     "name": "WildStang",
     "location": "Arlington Heights, Illinois, USA",
@@ -75,6 +98,17 @@
     ]
   },
   {
+    "number": 555,
+    "name": "Montclair Robotics",
+    "location": "Montclair, New Jersey, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-555-montclair-robotics-2024-build-thread/442706",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
     "number": 587,
     "name": "The Hedgehogs",
     "location": "Hillsborough, North Carolina, USA",
@@ -109,6 +143,21 @@
       {
         "url": "https://robodox.smugmug.com/",
         "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 611,
+    "name": "Saxons",
+    "location": "Mc Lean, Virginia, USA",
+    "media": [
+      {
+        "url": "https://chiefdelphi.com/t/frc-611-saxons-2024-build-thread/449136",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/LangleyRobotics/24-Bot-Test",
+        "name": "Code"
       }
     ]
   },
@@ -215,6 +264,21 @@
       {
         "url": "https://github.com/LakotaRobotics1038",
         "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 1072,
+    "name": "Harker Robotics",
+    "location": "San Jose, California, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-1072-2024-build-thread/449143",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://www.youtube.com/@Harker1072",
+        "name": "Videos"
       }
     ]
   },
@@ -446,6 +510,25 @@
     ]
   },
   {
+    "number": 1899,
+    "name": "Saints Robotics",
+    "location": "Bellevue, Washington, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/saints-robotics-1899-build-thread-open-alliance-2024/",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/SaintsRobotics",
+        "name": "Code"
+      },
+      {
+        "url": "https://youtube.com/@SaintsRobotics-nc3is",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
     "number": 2022,
     "name": "Titan Robotics",
     "location": "Aurora, Illinois, USA",
@@ -468,6 +551,40 @@
       {
         "url": "https://www.chiefdelphi.com/t/frc-2059-the-hitchhikers-2024-build-thread/447104",
         "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 2220,
+    "name": "Blue Twilight",
+    "location": "Eagan, Minnesota, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/2220-blue-twilight-2024-build-thread/443797",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/dc63bcf5db5751789191f400/w/f81d599ddc067aae3367f808/e/27e38c47f7f1f73c02acc042?renderMode=0&uiState=659d5432dbdc413dec7c3f58",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/Team2220/",
+        "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 2342,
+    "name": "Team Phoenix 4-H",
+    "location": "Nashua, New Hampshire, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-2342-team-phoenix-2024-build-thread-open-alliance/447151",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/FRCTeamPhoenix",
+        "name": "Code"
       }
     ]
   },
@@ -699,6 +816,21 @@
     ]
   },
   {
+    "number": 3175,
+    "name": "Knight Vision",
+    "location": "Grosse Pointe Woods, Michigan, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/3175-knight-vision-2024-build-thread-open-alliance/442621?",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/frc3175",
+        "name": "Code"
+      }
+    ]
+  },
+  {
     "number": 3181,
     "name": "Pittsford Panthers",
     "location": "Pittsford, New York, USA",
@@ -774,6 +906,33 @@
       },
       {
         "url": "https://www.youtube.com/user/BHSBroncBotz",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
+    "number": 3512,
+    "name": "Spartatroniks",
+    "location": "Orcutt, California, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/3512-spartatroniks-build-blog-open-alliance-2024/447505/2",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/5793c7749bf6f5dcea549944/w/63aff5377fec1a1fd1ccf4be/e/d3c670d67e51b8412f8dc9cd?renderMode=0&uiState=659787366dc9ca65fa51bfd4",
+        "name": "CAD"
+      },
+      {
+        "url": "https://github.com/frc3512",
+        "name": "Code"
+      },
+      {
+        "url": "https://1drv.ms/f/s!AhKg2fOh0aiil8Im66iXshBFHq_mtg?e=h5JtjU",
+        "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCFAskq9b7eQRB1AGZnYoi8A",
         "name": "Videos"
       }
     ]
@@ -1223,20 +1382,16 @@
     "location": "Plano, Texas, USA",
     "media": [
       {
-        "url": "https://www.chiefdelphi.com/t/frc-5431-titan-robotics-open-alliance-thread-2023/422334",
+        "url": "https://www.chiefdelphi.com/t/frc-5431-titan-robotics-open-alliance-thread-2024/448265",
         "name": "Build Thread"
       },
       {
-        "url": "https://cad.onshape.com/documents/40ffd4183b278ef2ba8d0d5a/w/8ccc86edcd3cb05f626aecb7/e/df994825e5521df31645f764",
+        "url": "https://a360.co/47pR2Sy",
         "name": "CAD"
       },
       {
         "url": "https://github.com/frc5431",
         "name": "Code"
-      },
-      {
-        "url": "https://www.youtube.com/channel/UCCItxf-ebmkhl8T0g7U7k8Q",
-        "name": "Videos"
       }
     ]
   },
@@ -1503,6 +1658,21 @@
     ]
   },
   {
+    "number": 7461,
+    "name": "Sushi Squad",
+    "location": "Redmond, Washington, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/7461-sushi-squad-build-thread-2024-open-alliance/448116",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/SushiSquad7461/oshi-yoshi-2024",
+        "name": "Code"
+      }
+    ]
+  },
+  {
     "number": 7525,
     "name": "The Pioneers",
     "location": "Nashville, Tennessee, USA",
@@ -1562,6 +1732,17 @@
     "media": [
       {
         "url": "https://www.chiefdelphi.com/t/8230-koibots-2024-build-thread-open-alliance/446977",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 8561,
+    "name": "Cartesian Robotics",
+    "location": "ANKARA, Ankara, T\u00fcrkiye",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/cartesian-robotics-8561-build-blog-2024/449021?u=ege_dgny",
         "name": "Build Thread"
       }
     ]
@@ -1635,6 +1816,17 @@
     ]
   },
   {
+    "number": 9033,
+    "name": "Ocebots",
+    "location": "Arlington, Virginia, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/9033-ocebots-2024-build-thread-open-alliance/447912?u=joot49",
+        "name": "Build Thread"
+      }
+    ]
+  },
+  {
     "number": 9047,
     "name": "TechMaker Robotics",
     "location": "Blumenau, Santa Catarina, Brazil",
@@ -1663,19 +1855,19 @@
     "location": "Albion, Michigan, USA",
     "media": [
       {
-        "url": "https://www.nerdspark.org/repositories/mechanical",
+        "url": "https://www.chiefdelphi.com/t/frc-9312-nerd-spark-2024-build-thread/449112",
         "name": "Build Thread"
       },
       {
-        "url": "https://www.nerdspark.org/repositories/mechanical",
+        "url": "https://cad.onshape.com/documents/f8c08b4811d03faba91e8ac1/w/f977a100d492db5a37604f46/e/1df05d11a71f59dcdadbb542?renderMode=0&uiState=659e100f8c1904531f33e84e",
         "name": "CAD"
       },
       {
-        "url": "https://www.nerdspark.org/repositories/programming",
+        "url": "https://github.com/nerdspark",
         "name": "Code"
       },
       {
-        "url": "https://www.instagram.com/nerd_spark9312/",
+        "url": "https://www.instagram.com/nerd_spark9312/?next=%2F",
         "name": "Photos"
       },
       {
