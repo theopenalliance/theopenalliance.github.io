@@ -438,6 +438,25 @@
     ]
   },
   {
+    "number": 1710,
+    "name": "The Ravonics Revolution ",
+    "location": "Olathe, Kansas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-team-1710-2024-build-thread-open-alliance/442068?u=coreybrown",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/FRC-Team-1710/2024-Robot",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/@FIRST_Team_1710",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
     "number": 1757,
     "name": "Wolverines",
     "location": "Westwood, Massachusetts, USA",
@@ -821,7 +840,7 @@
     "location": "Grosse Pointe Woods, Michigan, USA",
     "media": [
       {
-        "url": "https://www.chiefdelphi.com/t/3175-knight-vision-2024-build-thread-open-alliance/442621?",
+        "url": "https://www.chiefdelphi.com/t/3175-knight-vision-2024-build-thread-open-alliance/442621",
         "name": "Build Thread"
       },
       {
@@ -1511,6 +1530,29 @@
     ]
   },
   {
+    "number": 6369,
+    "name": "Mercenary Robotics",
+    "location": "McKinney, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-6369-mercenary-robotics-2024-build-thread/447071",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/7fbe1ca86c57b27d97c3045c/w/f9ebbb5ce91c19b1cefe3c5d/e/1c39319a3d03d448814a4101",
+        "name": "CAD"
+      },
+      {
+        "url": "https://photos.google.com/share/AF1QipPUqLzdGZu5mZlGN1wLAsGPHwTiN0ek9I0nE4iz625wWf7EgKyh6pcq3BEF2EhaxA?pli=1&key=VTJfczUxODM4MDM3OUNZN05oZEhwZHVKRHp0Y0xR",
+        "name": "Photos"
+      },
+      {
+        "url": "https://www.youtube.com/@mckinneymercenaries?sub_confirmation=1",
+        "name": "Videos"
+      }
+    ]
+  },
+  {
     "number": 6421,
     "name": "WarriorBots",
     "location": "Muskego, Wisconsin, USA",
@@ -1620,6 +1662,21 @@
       {
         "url": "https://github.com/Tigerbotics7125/FRC2024/tree/main",
         "name": "Code"
+      }
+    ]
+  },
+  {
+    "number": 7312,
+    "name": "T3",
+    "location": "Tomball, Texas, USA",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/frc-7312-team-t3-2024-crescendo-oa-build-season-thread/448076?u=matthewg",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://cad.onshape.com/documents/ab755897c017dd95da77ac0a/w/7f7e30782dc7975a054f80be/e/5b92345d2c87e9cada9f5118?renderMode=0&uiState=65aab5c110447463cc1f3c27",
+        "name": "CAD"
       }
     ]
   },
@@ -1744,6 +1801,25 @@
       {
         "url": "https://www.chiefdelphi.com/t/cartesian-robotics-8561-build-blog-2024/449021?u=ege_dgny",
         "name": "Build Thread"
+      }
+    ]
+  },
+  {
+    "number": 8574,
+    "name": "Audeamus",
+    "location": "North York, Ontario, Canada",
+    "media": [
+      {
+        "url": "https://www.chiefdelphi.com/t/8574-audeamus-2024-open-alliance-build-thread/450541",
+        "name": "Build Thread"
+      },
+      {
+        "url": "https://github.com/roboticsmgci",
+        "name": "Code"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UC2Yz-rsqcoBWBywcx1vLICA",
+        "name": "Videos"
       }
     ]
   },
